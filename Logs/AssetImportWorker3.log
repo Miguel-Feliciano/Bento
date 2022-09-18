@@ -1,0 +1,325 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.9f1 (07e076b6d414) revision 516214'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 32635 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/Miguel/OneDrive - Ensino Lusófona/facul/3º Ano/Estagio/Bento-AgrandPastTale/Bento
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+54011
+Successfully changed project path to: C:/Users/Miguel/OneDrive - Ensino Lusófona/facul/3º Ano/Estagio/Bento-AgrandPastTale/Bento
+C:/Users/Miguel/OneDrive - Ensino Lusófona/facul/3º Ano/Estagio/Bento-AgrandPastTale/Bento
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 84.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.9f1 (07e076b6d414)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Miguel/OneDrive - Ensino Lusófona/facul/3º Ano/Estagio/Bento-AgrandPastTale/Bento/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
+    Vendor:   NVIDIA
+    VRAM:     10078 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004584 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 82.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.632 seconds
+Domain Reload Profiling:
+	ReloadAssembly (632ms)
+		BeginReloadAssembly (72ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (462ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (111ms)
+				TypeCache.Initialize (111ms)
+					TypeCache.ScanAssembly (109ms)
+				ResolveRequiredComponents (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (282ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (82ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008759 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Miguel\OneDrive - Ensino Lusófona\facul\3º Ano\Estagio\Bento-AgrandPastTale\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Miguel\OneDrive - Ensino Lusófona\facul\3º Ano\Estagio\Bento-AgrandPastTale\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.981 seconds
+Domain Reload Profiling:
+	ReloadAssembly (982ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (707ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (236ms)
+				TypeCache.Initialize (233ms)
+					TypeCache.ScanAssembly (228ms)
+				ResolveRequiredComponents (3ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (307ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3426 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (58.0 KB). Loaded Objects now: 3887.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 2.693200 ms (FindLiveObjects: 0.224500 ms CreateObjectMapping: 0.075000 ms MarkObjects: 2.316600 ms  DeleteObjects: 0.076300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 190318.863918 seconds.
+  path: Assets/MeshandTextures/big assets/stool/stool_lambert1_BaseMap.png
+  artifactKey: Guid(bf7812dad2ab42c4ba84b7acbe5c1ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/stool/stool_lambert1_BaseMap.png using Guid(bf7812dad2ab42c4ba84b7acbe5c1ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817c104001a5a26afbdec6645dbe8ad9') in 0.086718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.348876 seconds.
+  path: Assets/MeshandTextures/big assets/stool/stool_lambert1_Normal.png
+  artifactKey: Guid(095fbd970d583ee4b9030a5e19c40c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/stool/stool_lambert1_Normal.png using Guid(095fbd970d583ee4b9030a5e19c40c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa085ffa1922162f7f531686f8eed4e') in 0.060378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 90.857359 seconds.
+  path: Assets/MeshandTextures/big assets/chest/chest low_hinge_Emissive.png
+  artifactKey: Guid(833231ed5613daa4c886487bc94adac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/chest/chest low_hinge_Emissive.png using Guid(833231ed5613daa4c886487bc94adac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b13ba5719874f89a4ef92619a11e900') in 0.025582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MeshandTextures/big assets/chest/chest low_outside_Metallic.png
+  artifactKey: Guid(9ad193d4a64578040ad95e0a7de57993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/chest/chest low_outside_Metallic.png using Guid(9ad193d4a64578040ad95e0a7de57993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e87a64c4abecd4320dba6ce99c51db') in 0.020424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MeshandTextures/big assets/chest/chest low_lambert1_Emissive.png
+  artifactKey: Guid(57948cc6a3cc4004e99bc07db7de9ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/chest/chest low_lambert1_Emissive.png using Guid(57948cc6a3cc4004e99bc07db7de9ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b016edd215df60716547af562e313f6') in 0.023921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MeshandTextures/big assets/chest/chest low_outside_Emissive.png
+  artifactKey: Guid(460b28f7c4c28ff4e9b306f0218375b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/chest/chest low_outside_Emissive.png using Guid(460b28f7c4c28ff4e9b306f0218375b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa7a4d93cd6e8c682e17175dd803d6c') in 0.018135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MeshandTextures/big assets/chest/chest low_outside_BaseColor.png
+  artifactKey: Guid(3872729c37775cf4cb7158dc5248ecd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/chest/chest low_outside_BaseColor.png using Guid(3872729c37775cf4cb7158dc5248ecd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c47a4843741f0311d11167bdc996d5b') in 0.016950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/MeshandTextures/big assets/chest/chest low_lambert1_BaseColor.png
+  artifactKey: Guid(1bca422ac181c9e4182f037c5492e682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/chest/chest low_lambert1_BaseColor.png using Guid(1bca422ac181c9e4182f037c5492e682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602ffd72a04903f2fead63e88afe7d91') in 0.029339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MeshandTextures/big assets/chest/chest low_relevo_Height.png
+  artifactKey: Guid(eba7b410740d3dd48b230199f289f7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/chest/chest low_relevo_Height.png using Guid(eba7b410740d3dd48b230199f289f7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe199788189634e3cb1710962d403148') in 0.013816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MeshandTextures/big assets/chest/chest low_hinge_Metallic.png
+  artifactKey: Guid(7829e5c40cde705449aee54f00dc79f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/chest/chest low_hinge_Metallic.png using Guid(7829e5c40cde705449aee54f00dc79f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c9ce4f01e2ea755f5f8b1d440e73a42') in 0.012863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MeshandTextures/big assets/chest/chest low_relevo_BaseColor.png
+  artifactKey: Guid(cf497f3909353534d98e67bc79d450d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/chest/chest low_relevo_BaseColor.png using Guid(cf497f3909353534d98e67bc79d450d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b50cf1314c574dfbe29ab7290d42bb9') in 0.012768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MeshandTextures/big assets/chest/chest low_lambert1_Roughness.png
+  artifactKey: Guid(481a36a38ae50294693de86915720e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/chest/chest low_lambert1_Roughness.png using Guid(481a36a38ae50294693de86915720e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d396f98d24b598d9f8c1a243f705c6') in 0.011704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/MeshandTextures/big assets/chest/chest low_outside_Roughness.png
+  artifactKey: Guid(279f7b558fc8c0d48b927d5408208fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/chest/chest low_outside_Roughness.png using Guid(279f7b558fc8c0d48b927d5408208fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff68f7b71ecdbca557af6c5d528a5b14') in 0.012613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MeshandTextures/big assets/chest/chest low_hinge_Normal.png
+  artifactKey: Guid(4bbbe2f91047ba04a80d8cc30328a0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/chest/chest low_hinge_Normal.png using Guid(4bbbe2f91047ba04a80d8cc30328a0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08574936e8941fe52502207978bb959f') in 0.013287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 425.804538 seconds.
+  path: Assets/MeshandTextures/big assets/table/table low_lambert1_AO.png
+  artifactKey: Guid(349a2987a67aecd439c158727d3ce406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/table/table low_lambert1_AO.png using Guid(349a2987a67aecd439c158727d3ce406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d8bbcba5ac738d5b7485352d682d97') in 0.017275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MeshandTextures/big assets/table/table low_lambert1_Emissive.png
+  artifactKey: Guid(89d47a4f3f78dd14bb768e400d221b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/table/table low_lambert1_Emissive.png using Guid(89d47a4f3f78dd14bb768e400d221b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8efa1ecc6c114ed19ca7ffc4ba3636f4') in 0.015231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/MeshandTextures/big assets/table/table low_lambert2_Normal.png
+  artifactKey: Guid(2a617f689a5694b4cb1d24fe18a7b838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/table/table low_lambert2_Normal.png using Guid(2a617f689a5694b4cb1d24fe18a7b838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c127180cfa5c564a9a587f0c3511e5') in 0.016008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MeshandTextures/big assets/table/table low_lambert2_AO.png
+  artifactKey: Guid(b8f52ebc34c1026458e2127a4dc4d982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/table/table low_lambert2_AO.png using Guid(b8f52ebc34c1026458e2127a4dc4d982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9c7f78d77b39e830a6acbf638796b0') in 0.016643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MeshandTextures/big assets/table/table low_lambert1_MaskMap.png
+  artifactKey: Guid(d2108d600e82a6e4d988c215b4f5dd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/table/table low_lambert1_MaskMap.png using Guid(d2108d600e82a6e4d988c215b4f5dd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9f8ceee1ce07f0d3fce9c77d7fc7e2') in 0.018880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/MeshandTextures/big assets/table/table low_lambert1_Normal.png
+  artifactKey: Guid(dda3132377539f64ca35ffd520dd47f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/table/table low_lambert1_Normal.png using Guid(dda3132377539f64ca35ffd520dd47f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458ac5d658dc11192b521c72a95b32a5') in 0.018773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/MeshandTextures/big assets/table/table low_lambert2_Emissive.png
+  artifactKey: Guid(9c7f2301beecd8b46811369140ed7f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/table/table low_lambert2_Emissive.png using Guid(9c7f2301beecd8b46811369140ed7f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2dc8c9a9bda635ea8a9feebf80ae7e') in 0.013520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 264.110052 seconds.
+  path: Assets/MeshandTextures/big assets/table/lambert2.mat
+  artifactKey: Guid(11b7a22b560df2f46a8d87b3cd848ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/table/lambert2.mat using Guid(11b7a22b560df2f46a8d87b3cd848ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b91a7f69bfdff17a5ad5ffd418e4b6') in 0.062584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MeshandTextures/big assets/table/table.fbx
+  artifactKey: Guid(89338c0cfc8b7c446b631ecb5fd84ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/table/table.fbx using Guid(89338c0cfc8b7c446b631ecb5fd84ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4313ac44612b75b0ae66b71b5842b80') in 0.088479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.313246 seconds.
+  path: Assets/MeshandTextures/big assets/table/lambert2.mat
+  artifactKey: Guid(11b7a22b560df2f46a8d87b3cd848ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/table/lambert2.mat using Guid(11b7a22b560df2f46a8d87b3cd848ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac9d9241263def3bebcca517d2f3917') in 0.030086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/MeshandTextures/big assets/table/table low_lambert2_Normal.png
+  artifactKey: Guid(2a617f689a5694b4cb1d24fe18a7b838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/table/table low_lambert2_Normal.png using Guid(2a617f689a5694b4cb1d24fe18a7b838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277e2eff6d722d831c323e7d47094c72') in 0.021156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MeshandTextures/big assets/table/table low_lambert1_Normal.png
+  artifactKey: Guid(dda3132377539f64ca35ffd520dd47f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/table/table low_lambert1_Normal.png using Guid(dda3132377539f64ca35ffd520dd47f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b659755ecec163c0d3bdc29b13c5042a') in 0.015881 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
