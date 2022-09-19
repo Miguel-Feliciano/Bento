@@ -1,0 +1,446 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.9f1 (07e076b6d414) revision 516214'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 16233 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/migue/OneDrive - Ensino Lusófona/facul/3º Ano/Estagio/Bento-AgrandPastTale/Bento
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+58250
+Successfully changed project path to: C:/Users/migue/OneDrive - Ensino Lusófona/facul/3º Ano/Estagio/Bento-AgrandPastTale/Bento
+C:/Users/migue/OneDrive - Ensino Lusófona/facul/3º Ano/Estagio/Bento-AgrandPastTale/Bento
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 205.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.9f1 (07e076b6d414)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/migue/OneDrive - Ensino Lusófona/facul/3º Ano/Estagio/Bento-AgrandPastTale/Bento/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 with Max-Q Design (ID=0x1f10)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012140 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 150.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.544 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1545ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1103ms)
+			LoadAssemblies (164ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (231ms)
+				TypeCache.Initialize (231ms)
+					TypeCache.ScanAssembly (229ms)
+				ResolveRequiredComponents (1ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (714ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (12ms)
+				RefreshPlugins (151ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (432ms)
+				ProcessInitializeOnLoadMethodAttributes (105ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.020690 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\migue\OneDrive - Ensino Lusófona\facul\3º Ano\Estagio\Bento-AgrandPastTale\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\migue\OneDrive - Ensino Lusófona\facul\3º Ano\Estagio\Bento-AgrandPastTale\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.054 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2055ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1650ms)
+			LoadAssemblies (153ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (550ms)
+				TypeCache.Initialize (541ms)
+					TypeCache.ScanAssembly (533ms)
+				ResolveRequiredComponents (9ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (107ms)
+			SetupLoadedEditorAssemblies (730ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (20ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (486ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3426 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (57.8 KB). Loaded Objects now: 3887.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 13.530700 ms (FindLiveObjects: 2.085200 ms CreateObjectMapping: 0.930700 ms MarkObjects: 10.178500 ms  DeleteObjects: 0.333800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 392040.030235 seconds.
+  path: Assets/MeshandTextures/big assets/bookcase/boockcase low_lambert1_AO.png
+  artifactKey: Guid(cbfe4501e23f4b644a9c5588a36b1b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bookcase/boockcase low_lambert1_AO.png using Guid(cbfe4501e23f4b644a9c5588a36b1b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f9b656607b16696c843dde88eadd708') in 0.253563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/MeshandTextures/big assets/bookcase/boockcase low_lambert1_Normal.png
+  artifactKey: Guid(2dc19df9382c9e44e94f6ea064e1934a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bookcase/boockcase low_lambert1_Normal.png using Guid(2dc19df9382c9e44e94f6ea064e1934a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3caa3705d380360e7545b42a07e1505') in 0.032820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.544528 seconds.
+  path: Assets/MeshandTextures/big assets/bookcase/lambert1.mat
+  artifactKey: Guid(dd4532c43548a1546b0a294635910508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bookcase/lambert1.mat using Guid(dd4532c43548a1546b0a294635910508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4228945b2866d0932a587bf21cb8cba5') in 0.198685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.183661 seconds.
+  path: Assets/MeshandTextures/big assets/bookcase/bookcase.fbx
+  artifactKey: Guid(eaed9eb4d60861f469de1f940caaf5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bookcase/bookcase.fbx using Guid(eaed9eb4d60861f469de1f940caaf5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b44c817c5c61460d5241069fdfcada') in 0.108653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70.113521 seconds.
+  path: Assets/MeshandTextures/big assets/bancada/lambert27.mat
+  artifactKey: Guid(43292c0fbd542bc43b57fa406e46b5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bancada/lambert27.mat using Guid(43292c0fbd542bc43b57fa406e46b5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b5a3ced075ad24c4444b4449d9f810') in 0.022850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/MeshandTextures/big assets/bancada/lambert28.mat
+  artifactKey: Guid(725aa53c0b923aa4995cc14a12e2272e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bancada/lambert28.mat using Guid(725aa53c0b923aa4995cc14a12e2272e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c06bf0efd7c35ffe052733ab42f84a') in 0.021178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.422898 seconds.
+  path: Assets/MeshandTextures/big assets/bancada/bancada low_lambert1_BaseMap.png
+  artifactKey: Guid(2bf924c0ea7af9241b672ae116850c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bancada/bancada low_lambert1_BaseMap.png using Guid(2bf924c0ea7af9241b672ae116850c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8f98a719521a63f075d4f82472cdab') in 0.029929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/MeshandTextures/big assets/bancada/bancada low_lambert1_Normal.png
+  artifactKey: Guid(3e6f5d9771e833543a8886fa20fef3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bancada/bancada low_lambert1_Normal.png using Guid(3e6f5d9771e833543a8886fa20fef3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b649d4f4a9a72ee000494709fdba234') in 0.028965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/MeshandTextures/big assets/bancada/bancada low_lambert2_BaseMap.png
+  artifactKey: Guid(1c7039c4c8810df45a42c31254d31499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bancada/bancada low_lambert2_BaseMap.png using Guid(1c7039c4c8810df45a42c31254d31499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b50e07a19ad701c6a06a08f9bb0da2') in 0.041818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/MeshandTextures/big assets/bancada/bancada low_lambert1_MaskMap.png
+  artifactKey: Guid(65910146f14423d4093c157376511ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bancada/bancada low_lambert1_MaskMap.png using Guid(65910146f14423d4093c157376511ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501166ef4849997d381f71dbc0f56c22') in 0.041136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/MeshandTextures/big assets/bancada/bancada low_lambert2_Normal.png
+  artifactKey: Guid(dd706d7909e988a44ab9dd89cf13f873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bancada/bancada low_lambert2_Normal.png using Guid(dd706d7909e988a44ab9dd89cf13f873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1af953220ea9c314b15c40c9749a92d') in 0.048914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 164.030618 seconds.
+  path: Assets/MeshandTextures/big assets/bancada/lambert27.mat
+  artifactKey: Guid(43292c0fbd542bc43b57fa406e46b5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bancada/lambert27.mat using Guid(43292c0fbd542bc43b57fa406e46b5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5366f9fc9b09a3b3ec34c6f4a7a856ef') in 0.033676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/MeshandTextures/big assets/bancada/lambert28.mat
+  artifactKey: Guid(725aa53c0b923aa4995cc14a12e2272e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bancada/lambert28.mat using Guid(725aa53c0b923aa4995cc14a12e2272e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38bb20da469b888d2aa8ba68923baade') in 0.031497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.354672 seconds.
+  path: Assets/MeshandTextures/big assets/bancada/bancada low_lambert1_Normal.png
+  artifactKey: Guid(3e6f5d9771e833543a8886fa20fef3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bancada/bancada low_lambert1_Normal.png using Guid(3e6f5d9771e833543a8886fa20fef3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ff22afd323bad6e16e6d31b915d033') in 0.048184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/MeshandTextures/big assets/bancada/lambert28.mat
+  artifactKey: Guid(725aa53c0b923aa4995cc14a12e2272e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bancada/lambert28.mat using Guid(725aa53c0b923aa4995cc14a12e2272e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f956e9ed9368b8f5c0fa83ee6b7998a0') in 0.056194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/MeshandTextures/big assets/bancada/lambert27.mat
+  artifactKey: Guid(43292c0fbd542bc43b57fa406e46b5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bancada/lambert27.mat using Guid(43292c0fbd542bc43b57fa406e46b5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43b896fb58fc3c9eec1f4911c21fee1') in 0.061457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 225.271990 seconds.
+  path: Assets/MeshandTextures/big assets/woredrobe/wardrobe low_hinge_AO.png
+  artifactKey: Guid(67f228e4d8d45604ea546a0f8732064c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/woredrobe/wardrobe low_hinge_AO.png using Guid(67f228e4d8d45604ea546a0f8732064c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a96f4e5515dcfcb6ce766fbaea2fe8d') in 0.027019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/MeshandTextures/big assets/woredrobe/wardrobe low_wbd_AO.png
+  artifactKey: Guid(4b2a322769a426242af1b227c7c9fc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/woredrobe/wardrobe low_wbd_AO.png using Guid(4b2a322769a426242af1b227c7c9fc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b526101210718af4750a7985ac6ae1') in 0.041223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/MeshandTextures/big assets/woredrobe/wardrobe low_wb_Normal.png
+  artifactKey: Guid(482f2fef3f0aa5b459dde1fde62af03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/woredrobe/wardrobe low_wb_Normal.png using Guid(482f2fef3f0aa5b459dde1fde62af03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef4e1c9d40d6423032a0e54163773c5') in 0.040929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/MeshandTextures/big assets/woredrobe/wardrobe low_knob_BaseMap.png
+  artifactKey: Guid(d138fc40ce9cd2b4ebd70f0f36ffe400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/woredrobe/wardrobe low_knob_BaseMap.png using Guid(d138fc40ce9cd2b4ebd70f0f36ffe400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e2b657274df12f2ab6b4b90f4c8384') in 0.041531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/MeshandTextures/big assets/woredrobe/wardrobe low_wbd_Normal.png
+  artifactKey: Guid(ec133a27fa104be4c9c6b46f075ca634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/woredrobe/wardrobe low_wbd_Normal.png using Guid(ec133a27fa104be4c9c6b46f075ca634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cffc3302de95eaf7c701853163883c0') in 0.037441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/MeshandTextures/big assets/woredrobe/wardrobe low_wbd_MaskMap.png
+  artifactKey: Guid(901c67cafd9552f47a49d6b51067262b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/woredrobe/wardrobe low_wbd_MaskMap.png using Guid(901c67cafd9552f47a49d6b51067262b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8aa37befae6b2cd71811744e7da7d0') in 0.040313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/MeshandTextures/big assets/woredrobe/wardrobe low_knob_MaskMap.png
+  artifactKey: Guid(9e2ad85cf6fbffa4db78516e6971f817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/woredrobe/wardrobe low_knob_MaskMap.png using Guid(9e2ad85cf6fbffa4db78516e6971f817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1c335544f754e51e0bb465b75e2861') in 0.037792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/MeshandTextures/big assets/woredrobe/wardrobe low_knob_Normal.png
+  artifactKey: Guid(5f3c1e9346d10b34590bca08b06b90de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/woredrobe/wardrobe low_knob_Normal.png using Guid(5f3c1e9346d10b34590bca08b06b90de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569500c87542e5dd384d23ac158ce759') in 0.037334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/MeshandTextures/big assets/woredrobe/wardrobe low_wb_BaseMap.png
+  artifactKey: Guid(a818f76fb510ead4c8588a55d3616742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/woredrobe/wardrobe low_wb_BaseMap.png using Guid(a818f76fb510ead4c8588a55d3616742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07721a5c2a0244eb1066a8c20e644db') in 0.036068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/MeshandTextures/big assets/woredrobe/wardrobe low_hinge_MaskMap.png
+  artifactKey: Guid(260767b655d7c3a4691584ad3569461c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/woredrobe/wardrobe low_hinge_MaskMap.png using Guid(260767b655d7c3a4691584ad3569461c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5a2a002f1fbc31f312f92d06b83835') in 0.032068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 102.501365 seconds.
+  path: Assets/MeshandTextures/big assets/woredrobe/knob.mat
+  artifactKey: Guid(ac12acb2125f6d948b1da9712a1061fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/woredrobe/knob.mat using Guid(ac12acb2125f6d948b1da9712a1061fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b60cc062ef45476cb00263bec1b1110e') in 0.035799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/MeshandTextures/big assets/woredrobe/wbd.mat
+  artifactKey: Guid(28663d29c12f1034a96fb22be4c00513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/woredrobe/wbd.mat using Guid(28663d29c12f1034a96fb22be4c00513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb9147f91ed713d8785f5482c6c761f') in 0.035439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/MeshandTextures/big assets/woredrobe/wb.mat
+  artifactKey: Guid(d6b13eb596ca2e1428e4b692f6e7e43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/woredrobe/wb.mat using Guid(d6b13eb596ca2e1428e4b692f6e7e43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd773e19a3323711eefb77706e7cc6b65') in 0.035499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/MeshandTextures/big assets/woredrobe/wardrobe low.fbx
+  artifactKey: Guid(1aaae28ffbe359a4b90858e4133f784e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/woredrobe/wardrobe low.fbx using Guid(1aaae28ffbe359a4b90858e4133f784e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8bd7a86adcd9c8507fba19945855b1a') in 0.222173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.998176 seconds.
+  path: Assets/MeshandTextures/big assets/woredrobe/knob.mat
+  artifactKey: Guid(ac12acb2125f6d948b1da9712a1061fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/woredrobe/knob.mat using Guid(ac12acb2125f6d948b1da9712a1061fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169c0bf365ed038b2840afacd3fe5b1e') in 0.037137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MeshandTextures/big assets/woredrobe/wbd.mat
+  artifactKey: Guid(28663d29c12f1034a96fb22be4c00513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/woredrobe/wbd.mat using Guid(28663d29c12f1034a96fb22be4c00513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8557ba78f18eca8397828b1907986c8') in 0.038854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MeshandTextures/big assets/woredrobe/wardrobe low_wb_Normal.png
+  artifactKey: Guid(482f2fef3f0aa5b459dde1fde62af03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/woredrobe/wardrobe low_wb_Normal.png using Guid(482f2fef3f0aa5b459dde1fde62af03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86965598e6a5fb12a16a2890d620f8c') in 0.031182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/MeshandTextures/big assets/woredrobe/wardrobe low_hinge_Normal.png
+  artifactKey: Guid(6ba81de9ac29c1e4386a14108f5e5923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/woredrobe/wardrobe low_hinge_Normal.png using Guid(6ba81de9ac29c1e4386a14108f5e5923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50666907cc6719f928eabd0c43a88290') in 0.028966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/MeshandTextures/big assets/woredrobe/wardrobe low.fbx
+  artifactKey: Guid(1aaae28ffbe359a4b90858e4133f784e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/woredrobe/wardrobe low.fbx using Guid(1aaae28ffbe359a4b90858e4133f784e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061fcac9858c80ea192346cf6053aac6') in 0.322818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 719.163098 seconds.
+  path: Assets/MeshandTextures/big assets/window/window_glass1_AO.png
+  artifactKey: Guid(bb049e2becc6b8543926a163a5dd6024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/window/window_glass1_AO.png using Guid(bb049e2becc6b8543926a163a5dd6024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab90e36ce5c3fffbd02006cd1f9971d') in 0.038686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/MeshandTextures/big assets/window/window_window_frame_MaskMap.png
+  artifactKey: Guid(4ae211d76921a8f4ca90fbf3123ee8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/window/window_window_frame_MaskMap.png using Guid(4ae211d76921a8f4ca90fbf3123ee8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0060ecf78dd0b95c0490b2b0eea7253b') in 0.040302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/MeshandTextures/big assets/window/window_glass1_Normal.png
+  artifactKey: Guid(88e5b04796a60ae49b7b07fcb69e5151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/window/window_glass1_Normal.png using Guid(88e5b04796a60ae49b7b07fcb69e5151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea6e06f3fa531ebd6d728326ae555b3') in 0.029283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/MeshandTextures/big assets/window/window_window_frame_AO.png
+  artifactKey: Guid(3642110d7343fe24ea12a673bebbeba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/window/window_window_frame_AO.png using Guid(3642110d7343fe24ea12a673bebbeba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8bd692f204b67d32cc5975e4e0a2a6') in 0.025027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/MeshandTextures/big assets/window/window_window_frame_Normal.png
+  artifactKey: Guid(bf25de1f7d410bc4b9aee46b56ea60ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/window/window_window_frame_Normal.png using Guid(bf25de1f7d410bc4b9aee46b56ea60ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66af814b53ac66d4da7a8f79bf83374d') in 0.033077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/MeshandTextures/big assets/window/window_glass1_MaskMap.png
+  artifactKey: Guid(0a77f8e728d9a954392eda9f991a56c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/window/window_glass1_MaskMap.png using Guid(0a77f8e728d9a954392eda9f991a56c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f46a5b2fbc463b16a225ae831e26fee') in 0.021598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 80.820421 seconds.
+  path: Assets/MeshandTextures/big assets/window/window.fbx
+  artifactKey: Guid(f1337a00417aaa441ac7dab85db808ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/window/window.fbx using Guid(f1337a00417aaa441ac7dab85db808ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02519f1ca30cdd3551a9875332aaa4d') in 0.106032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MeshandTextures/big assets/window/window_frame.mat
+  artifactKey: Guid(df98ef746ebedb24e8c2c9d83c3b88d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/window/window_frame.mat using Guid(df98ef746ebedb24e8c2c9d83c3b88d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a9dc236db506b66de6d99de5cb18c3') in 0.028449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 652.643634 seconds.
+  path: Assets/MeshandTextures/big assets/bed/bed low_lambert1_BaseMap.png
+  artifactKey: Guid(c4f65be51d59f0749b0c77cf373a2812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bed/bed low_lambert1_BaseMap.png using Guid(c4f65be51d59f0749b0c77cf373a2812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd925de3176d4e27287f075b47b01e70b') in 0.068062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/MeshandTextures/big assets/bed/bed low_lambert1_MaskMap.png
+  artifactKey: Guid(85ce7620129b65c44a0262df3b450d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bed/bed low_lambert1_MaskMap.png using Guid(85ce7620129b65c44a0262df3b450d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c84893e4dcbfdb9ff7c6f95d6cdb475') in 0.054188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.029920 seconds.
+  path: Assets/MeshandTextures/big assets/bed/lambert1.mat
+  artifactKey: Guid(c96eab0bbf332234fad9ec31cd92e43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bed/lambert1.mat using Guid(c96eab0bbf332234fad9ec31cd92e43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1128b84b418e5b950123972e794f6142') in 0.018055 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
