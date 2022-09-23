@@ -1,0 +1,253 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.9f1 (07e076b6d414) revision 516214'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 32635 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Miguel/OneDrive - Ensino Lusófona/facul/3º Ano/Estagio/Bento-AgrandPastTale/Bento
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+61284
+Successfully changed project path to: C:/Users/Miguel/OneDrive - Ensino Lusófona/facul/3º Ano/Estagio/Bento-AgrandPastTale/Bento
+C:/Users/Miguel/OneDrive - Ensino Lusófona/facul/3º Ano/Estagio/Bento-AgrandPastTale/Bento
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 65.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.9f1 (07e076b6d414)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Miguel/OneDrive - Ensino Lusófona/facul/3º Ano/Estagio/Bento-AgrandPastTale/Bento/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
+    Vendor:   NVIDIA
+    VRAM:     10078 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004403 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 81.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.607 seconds
+Domain Reload Profiling:
+	ReloadAssembly (607ms)
+		BeginReloadAssembly (64ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (459ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (94ms)
+				TypeCache.Initialize (93ms)
+					TypeCache.ScanAssembly (92ms)
+				ResolveRequiredComponents (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (284ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (142ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008959 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Miguel\OneDrive - Ensino Lusófona\facul\3º Ano\Estagio\Bento-AgrandPastTale\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Miguel\OneDrive - Ensino Lusófona\facul\3º Ano\Estagio\Bento-AgrandPastTale\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.904 seconds
+Domain Reload Profiling:
+	ReloadAssembly (905ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (701ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (228ms)
+				TypeCache.Initialize (225ms)
+					TypeCache.ScanAssembly (220ms)
+				ResolveRequiredComponents (4ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (315ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (198ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3426 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (58.0 KB). Loaded Objects now: 3887.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 3.340800 ms (FindLiveObjects: 0.437300 ms CreateObjectMapping: 0.097000 ms MarkObjects: 2.720800 ms  DeleteObjects: 0.084900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 621941.294854 seconds.
+  path: Assets/MeshandTextures/house/house 1.fbx
+  artifactKey: Guid(e6f72a8bc3f3a504e95eee8a42e47fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/house/house 1.fbx using Guid(e6f72a8bc3f3a504e95eee8a42e47fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc0f650724efc4441198dd0c3670c7a') in 0.339789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.549464 seconds.
+  path: Assets/MeshandTextures/house/roof/roof_in.mat
+  artifactKey: Guid(f38288d8785fa7f47bdfd353201189fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/house/roof/roof_in.mat using Guid(f38288d8785fa7f47bdfd353201189fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6354820b04b045154fca1e467da7a1d3') in 0.030019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 811.756065 seconds.
+  path: Assets/MeshandTextures/house/outside/outside 1.mat
+  artifactKey: Guid(d46cb58b0dc4c1f4eaa62014dde5e42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/house/outside/outside 1.mat using Guid(d46cb58b0dc4c1f4eaa62014dde5e42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5244a72aa9d6902d2793a12b2e58f816') in 0.010838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6374.120766 seconds.
+  path: Assets/MeshandTextures/big assets/chest/chest low_hinge_BaseMap.png
+  artifactKey: Guid(4efccea1df0656248aea65f917e9a9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/chest/chest low_hinge_BaseMap.png using Guid(4efccea1df0656248aea65f917e9a9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae16046f577572845ce9ee290670eecd') in 0.177692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/MeshandTextures/big assets/chest/chest low_relevo_BaseMap.png
+  artifactKey: Guid(4c46b9697f3c6d54fbfbdb7aba23ce10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/chest/chest low_relevo_BaseMap.png using Guid(4c46b9697f3c6d54fbfbdb7aba23ce10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646134822386b3302b1cee4e936fd6ae') in 0.018927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/MeshandTextures/big assets/chest/chest low_lambert1_MaskMap.png
+  artifactKey: Guid(b86b5fcde5af5aa459c15f2655d7b7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/chest/chest low_lambert1_MaskMap.png using Guid(b86b5fcde5af5aa459c15f2655d7b7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06312bcfe9709cbe19d3ad1864eb1ecd') in 0.023930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MeshandTextures/big assets/chest/chest low_outside_Normal.png
+  artifactKey: Guid(60718e0aa697bc44582424acd6eca88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/chest/chest low_outside_Normal.png using Guid(60718e0aa697bc44582424acd6eca88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2ce03dd95b3eac46114a97531ed40a') in 0.014765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MeshandTextures/big assets/chest/chest low_outside_Emissive.png
+  artifactKey: Guid(0b600c94186bbe54c892fb103d6258d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/chest/chest low_outside_Emissive.png using Guid(0b600c94186bbe54c892fb103d6258d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb18ddad2ab53575b25d1acafaba5f03') in 0.013453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MeshandTextures/big assets/chest/chest low_relevo_Normal.png
+  artifactKey: Guid(82045e8cbc460264f85cf0d58c007eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/chest/chest low_relevo_Normal.png using Guid(82045e8cbc460264f85cf0d58c007eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bedacc83f0fc6b15470bc2f499c6fd2') in 0.014105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MeshandTextures/big assets/chest/chest low_relevo_Emissive.png
+  artifactKey: Guid(b5d1f513066323641ae7e582dfbff9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/chest/chest low_relevo_Emissive.png using Guid(b5d1f513066323641ae7e582dfbff9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3669cfa8eaa948d5298d80504eb8ad') in 0.013641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MeshandTextures/big assets/chest/chest low_lambert1_Normal.png
+  artifactKey: Guid(dc8c4a6b3fd7b414c98ff26b7ba26bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/chest/chest low_lambert1_Normal.png using Guid(dc8c4a6b3fd7b414c98ff26b7ba26bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149b10eca013c51a1b5785221692f9ba') in 0.012414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 322.908428 seconds.
+  path: Assets/MeshandTextures/big assets/bed/lambert1 1.mat
+  artifactKey: Guid(af5dfb29a8035244b997db9e0e3ac5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bed/lambert1 1.mat using Guid(af5dfb29a8035244b997db9e0e3ac5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f9c4732ba7b3837035678f732931fb') in 0.021825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.706166 seconds.
+  path: Assets/MeshandTextures/big assets/bed/matress low_lambert1_BaseMap.png
+  artifactKey: Guid(01c4cd5feae98854d822d77c57175b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bed/matress low_lambert1_BaseMap.png using Guid(01c4cd5feae98854d822d77c57175b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7097bdaae38e9bede7a24b75a7b85991') in 0.019265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/MeshandTextures/big assets/bed/matress low_lambert1_Emissive.png
+  artifactKey: Guid(a78b6e28b16d67043b09bbd22e6c50ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bed/matress low_lambert1_Emissive.png using Guid(a78b6e28b16d67043b09bbd22e6c50ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ad4172fe8fcc59ff4179ba0268be64') in 0.018038 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
