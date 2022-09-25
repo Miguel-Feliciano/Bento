@@ -15,7 +15,7 @@ C:/Users/Miguel/OneDrive - Ensino Lusófona/facul/3º Ano/Estagio/Bento-AgrandPa
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-61284
+55592
 Successfully changed project path to: C:/Users/Miguel/OneDrive - Ensino Lusófona/facul/3º Ano/Estagio/Bento-AgrandPastTale/Bento
 C:/Users/Miguel/OneDrive - Ensino Lusófona/facul/3º Ano/Estagio/Bento-AgrandPastTale/Bento
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Miguel/OneDrive - Ensino Lusófona/facul/3º Ano/Estagio/Bento-AgrandPa
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 65.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 92.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.9f1 (07e076b6d414)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.9f1/Editor/Data/Resources/UnitySubsystems
@@ -63,81 +63,81 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004403 seconds.
+Registered in 0.005775 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 81.04 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 85.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.607 seconds
+- Completed reload, in  0.690 seconds
 Domain Reload Profiling:
-	ReloadAssembly (607ms)
-		BeginReloadAssembly (64ms)
+	ReloadAssembly (691ms)
+		BeginReloadAssembly (87ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (459ms)
-			LoadAssemblies (62ms)
+		EndReloadAssembly (486ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (94ms)
-				TypeCache.Initialize (93ms)
-					TypeCache.ScanAssembly (92ms)
-				ResolveRequiredComponents (0ms)
+			SetupTypeCache (126ms)
+				TypeCache.Initialize (126ms)
+					TypeCache.ScanAssembly (124ms)
+				ResolveRequiredComponents (1ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (284ms)
+			SetupLoadedEditorAssemblies (276ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (7ms)
-				RefreshPlugins (81ms)
+				RefreshPlugins (86ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (142ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				ProcessInitializeOnLoadAttributes (131ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008959 seconds.
+Registered in 0.010690 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Miguel\OneDrive - Ensino Lusófona\facul\3º Ano\Estagio\Bento-AgrandPastTale\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Miguel\OneDrive - Ensino Lusófona\facul\3º Ano\Estagio\Bento-AgrandPastTale\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.904 seconds
+- Completed reload, in  0.949 seconds
 Domain Reload Profiling:
-	ReloadAssembly (905ms)
-		BeginReloadAssembly (104ms)
+	ReloadAssembly (950ms)
+		BeginReloadAssembly (121ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (701ms)
-			LoadAssemblies (88ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (727ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (228ms)
 				TypeCache.Initialize (225ms)
 					TypeCache.ScanAssembly (220ms)
-				ResolveRequiredComponents (4ms)
+				ResolveRequiredComponents (3ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (315ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (310ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (6ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (7ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (198ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -146,12 +146,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3426 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 26 unused Assets / (58.0 KB). Loaded Objects now: 3887.
 Memory consumption went from 0.51 GB to 0.51 GB.
-Total: 3.340800 ms (FindLiveObjects: 0.437300 ms CreateObjectMapping: 0.097000 ms MarkObjects: 2.720800 ms  DeleteObjects: 0.084900 ms)
+Total: 2.803900 ms (FindLiveObjects: 0.320100 ms CreateObjectMapping: 0.084600 ms MarkObjects: 2.320800 ms  DeleteObjects: 0.077700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -165,89 +165,121 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 621941.294854 seconds.
-  path: Assets/MeshandTextures/house/house 1.fbx
-  artifactKey: Guid(e6f72a8bc3f3a504e95eee8a42e47fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MeshandTextures/house/house 1.fbx using Guid(e6f72a8bc3f3a504e95eee8a42e47fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc0f650724efc4441198dd0c3670c7a') in 0.339789 seconds 
+  Time since last request: 778604.001166 seconds.
+  path: Assets/MeshandTextures/big assets/door/door out_lambert1_Normal.png
+  artifactKey: Guid(714b201ba7cfdf14cbf73709d94e697d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/door/door out_lambert1_Normal.png using Guid(714b201ba7cfdf14cbf73709d94e697d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e07aeecb5438bc70baf0e3a28dfc228') in 0.114853 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.549464 seconds.
-  path: Assets/MeshandTextures/house/roof/roof_in.mat
-  artifactKey: Guid(f38288d8785fa7f47bdfd353201189fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MeshandTextures/house/roof/roof_in.mat using Guid(f38288d8785fa7f47bdfd353201189fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6354820b04b045154fca1e467da7a1d3') in 0.030019 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/MeshandTextures/big assets/door/door out_lambert1_Height.png
+  artifactKey: Guid(057e99d331297f143875e0b0fc5299fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/door/door out_lambert1_Height.png using Guid(057e99d331297f143875e0b0fc5299fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880a553d3664f30134e9792b37e40700') in 0.020938 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 811.756065 seconds.
-  path: Assets/MeshandTextures/house/outside/outside 1.mat
-  artifactKey: Guid(d46cb58b0dc4c1f4eaa62014dde5e42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MeshandTextures/house/outside/outside 1.mat using Guid(d46cb58b0dc4c1f4eaa62014dde5e42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5244a72aa9d6902d2793a12b2e58f816') in 0.010838 seconds 
+  Time since last request: 0.000025 seconds.
+  path: Assets/MeshandTextures/big assets/door/door_knob_Metallic.png
+  artifactKey: Guid(026eeee6ce7ef28488fddccbd3b92730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/door/door_knob_Metallic.png using Guid(026eeee6ce7ef28488fddccbd3b92730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e3775cb32dd0447504622a6abbc371') in 0.017071 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6374.120766 seconds.
-  path: Assets/MeshandTextures/big assets/chest/chest low_hinge_BaseMap.png
-  artifactKey: Guid(4efccea1df0656248aea65f917e9a9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MeshandTextures/big assets/chest/chest low_hinge_BaseMap.png using Guid(4efccea1df0656248aea65f917e9a9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae16046f577572845ce9ee290670eecd') in 0.177692 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/MeshandTextures/big assets/chest/chest low_relevo_BaseMap.png
-  artifactKey: Guid(4c46b9697f3c6d54fbfbdb7aba23ce10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MeshandTextures/big assets/chest/chest low_relevo_BaseMap.png using Guid(4c46b9697f3c6d54fbfbdb7aba23ce10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646134822386b3302b1cee4e936fd6ae') in 0.018927 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/MeshandTextures/big assets/chest/chest low_lambert1_MaskMap.png
-  artifactKey: Guid(b86b5fcde5af5aa459c15f2655d7b7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MeshandTextures/big assets/chest/chest low_lambert1_MaskMap.png using Guid(b86b5fcde5af5aa459c15f2655d7b7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06312bcfe9709cbe19d3ad1864eb1ecd') in 0.023930 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/MeshandTextures/big assets/chest/chest low_outside_Normal.png
-  artifactKey: Guid(60718e0aa697bc44582424acd6eca88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MeshandTextures/big assets/chest/chest low_outside_Normal.png using Guid(60718e0aa697bc44582424acd6eca88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2ce03dd95b3eac46114a97531ed40a') in 0.014765 seconds 
+  Time since last request: 0.000065 seconds.
+  path: Assets/MeshandTextures/big assets/door/door_lambert1_Normal.png
+  artifactKey: Guid(b2d15b766c70c604382abfe1cdc61aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/door/door_lambert1_Normal.png using Guid(b2d15b766c70c604382abfe1cdc61aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97e21908300d2692f2dd73f1857eec7') in 0.016795 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/MeshandTextures/big assets/chest/chest low_outside_Emissive.png
-  artifactKey: Guid(0b600c94186bbe54c892fb103d6258d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MeshandTextures/big assets/chest/chest low_outside_Emissive.png using Guid(0b600c94186bbe54c892fb103d6258d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb18ddad2ab53575b25d1acafaba5f03') in 0.013453 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/MeshandTextures/big assets/chest/chest low_relevo_Normal.png
-  artifactKey: Guid(82045e8cbc460264f85cf0d58c007eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MeshandTextures/big assets/chest/chest low_relevo_Normal.png using Guid(82045e8cbc460264f85cf0d58c007eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bedacc83f0fc6b15470bc2f499c6fd2') in 0.014105 seconds 
+  path: Assets/MeshandTextures/big assets/door/door_lambert1_BaseColor.png
+  artifactKey: Guid(98e77146c40a4d44db44550c8dfe0c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/door/door_lambert1_BaseColor.png using Guid(98e77146c40a4d44db44550c8dfe0c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7fb5b60e3e0558224ed35e1623049c0') in 0.022619 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/MeshandTextures/big assets/chest/chest low_relevo_Emissive.png
-  artifactKey: Guid(b5d1f513066323641ae7e582dfbff9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MeshandTextures/big assets/chest/chest low_relevo_Emissive.png using Guid(b5d1f513066323641ae7e582dfbff9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3669cfa8eaa948d5298d80504eb8ad') in 0.013641 seconds 
+  path: Assets/MeshandTextures/big assets/door/door_knob_AO.png
+  artifactKey: Guid(18eb450c68b57cf41bb81341edc2fbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/door/door_knob_AO.png using Guid(18eb450c68b57cf41bb81341edc2fbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d7df748327bbb5f5ffb3dde853402e') in 0.016089 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/MeshandTextures/big assets/chest/chest low_lambert1_Normal.png
-  artifactKey: Guid(dc8c4a6b3fd7b414c98ff26b7ba26bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MeshandTextures/big assets/chest/chest low_lambert1_Normal.png using Guid(dc8c4a6b3fd7b414c98ff26b7ba26bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149b10eca013c51a1b5785221692f9ba') in 0.012414 seconds 
+  Time since last request: 0.000044 seconds.
+  path: Assets/MeshandTextures/big assets/door/door_hinge_Roughness.png
+  artifactKey: Guid(f4aa4195a00aa824ca2bfa9e8cfcd7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/door/door_hinge_Roughness.png using Guid(f4aa4195a00aa824ca2bfa9e8cfcd7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf9e4f3e67c7fab1201fcd1837b8590') in 0.016948 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 322.908428 seconds.
-  path: Assets/MeshandTextures/big assets/bed/lambert1 1.mat
-  artifactKey: Guid(af5dfb29a8035244b997db9e0e3ac5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MeshandTextures/big assets/bed/lambert1 1.mat using Guid(af5dfb29a8035244b997db9e0e3ac5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f9c4732ba7b3837035678f732931fb') in 0.021825 seconds 
+  Time since last request: 0.000055 seconds.
+  path: Assets/MeshandTextures/big assets/door/door_lambert1_AO.png
+  artifactKey: Guid(347bb48a35f316c4c9a2f166e65aabdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/door/door_lambert1_AO.png using Guid(347bb48a35f316c4c9a2f166e65aabdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63adf80b1cca30e119c2d1047985ca71') in 0.012698 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.706166 seconds.
-  path: Assets/MeshandTextures/big assets/bed/matress low_lambert1_BaseMap.png
-  artifactKey: Guid(01c4cd5feae98854d822d77c57175b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MeshandTextures/big assets/bed/matress low_lambert1_BaseMap.png using Guid(01c4cd5feae98854d822d77c57175b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7097bdaae38e9bede7a24b75a7b85991') in 0.019265 seconds 
+  Time since last request: 0.000027 seconds.
+  path: Assets/MeshandTextures/big assets/door/door out_lambert1_Metallic.png
+  artifactKey: Guid(37606c3f27374724e8e3f2adc9f493f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/door/door out_lambert1_Metallic.png using Guid(37606c3f27374724e8e3f2adc9f493f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c8bd409ffe02479a7d40ed76303bc8') in 0.011343 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/MeshandTextures/big assets/bed/matress low_lambert1_Emissive.png
-  artifactKey: Guid(a78b6e28b16d67043b09bbd22e6c50ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MeshandTextures/big assets/bed/matress low_lambert1_Emissive.png using Guid(a78b6e28b16d67043b09bbd22e6c50ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ad4172fe8fcc59ff4179ba0268be64') in 0.018038 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 202.747252 seconds.
+  path: Assets/MeshandTextures/big assets/door/hinge.mat
+  artifactKey: Guid(5860c8fcc7205ca4296afc84dbbe0541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/door/hinge.mat using Guid(5860c8fcc7205ca4296afc84dbbe0541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03db965a9f13e5405830acb4f89eece1') in 0.095123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MeshandTextures/big assets/door/lambert1 1.mat
+  artifactKey: Guid(8dd0fc9589ff5b743b7497b63f96f27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/door/lambert1 1.mat using Guid(8dd0fc9589ff5b743b7497b63f96f27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f35376b122ed0bf5a96abeb3ae0aca') in 0.019323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MeshandTextures/big assets/door/knob.mat
+  artifactKey: Guid(07601d3069d36c848a619efbc61e5ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/door/knob.mat using Guid(07601d3069d36c848a619efbc61e5ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa16fdb8ff943d817d51643aca9bb83') in 0.024765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 215.874581 seconds.
+  path: Assets/MeshandTextures/big assets/door/door out_lambert1_BaseMap.png
+  artifactKey: Guid(96ae305f7c1adf3439fc023ce820a563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/door/door out_lambert1_BaseMap.png using Guid(96ae305f7c1adf3439fc023ce820a563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf66c0c444f916afd6c708777aa46b6') in 0.014778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MeshandTextures/big assets/door/door out_lambert1_Normal.png
+  artifactKey: Guid(714b201ba7cfdf14cbf73709d94e697d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/door/door out_lambert1_Normal.png using Guid(714b201ba7cfdf14cbf73709d94e697d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55cc2c3e3525a2672eb87ebe66f09b4') in 0.016074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 83.843948 seconds.
+  path: Assets/MeshandTextures/big assets/door/lambert1.mat
+  artifactKey: Guid(292bd27dc135cf344a1884a2727fa7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/door/lambert1.mat using Guid(292bd27dc135cf344a1884a2727fa7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425647b9d850f220d5d7f66e6e9a5362') in 0.030194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.138941 seconds.
+  path: Assets/MeshandTextures/big assets/door/door out_lambert1_Normal.png
+  artifactKey: Guid(714b201ba7cfdf14cbf73709d94e697d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/door/door out_lambert1_Normal.png using Guid(714b201ba7cfdf14cbf73709d94e697d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f180b1853ccffc8a70b212ada7a7659') in 0.015996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MeshandTextures/big assets/door/lambert1.mat
+  artifactKey: Guid(292bd27dc135cf344a1884a2727fa7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/door/lambert1.mat using Guid(292bd27dc135cf344a1884a2727fa7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc00055ba04b914bdc8d3bfb6e7f937d') in 0.020229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.422121 seconds.
+  path: Assets/MeshandTextures/big assets/tools/shovel/shovel low.fbx
+  artifactKey: Guid(8c87b73643d794d41a9f5270ee133698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/tools/shovel/shovel low.fbx using Guid(8c87b73643d794d41a9f5270ee133698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b54b0be972a72f01ab783a4ac0fecce') in 0.071981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MeshandTextures/big assets/tools/shovel/shovel low_metal_Normal.png
+  artifactKey: Guid(6757bc3bad72f8c428ebfc04baeaeb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/tools/shovel/shovel low_metal_Normal.png using Guid(6757bc3bad72f8c428ebfc04baeaeb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd026d01d640c321d10c5813adb8b83') in 0.012100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.045566 seconds.
+  path: Assets/MeshandTextures/big assets/tools/shovel/wb.mat
+  artifactKey: Guid(f81193463605c214fa9af314b4500c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/tools/shovel/wb.mat using Guid(f81193463605c214fa9af314b4500c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9382825dd2f606c008a05e49db29bb9') in 0.019098 seconds 
