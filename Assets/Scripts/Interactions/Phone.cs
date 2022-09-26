@@ -5,14 +5,7 @@ using UnityEngine;
 public class Phone : MonoBehaviour, IInteractable
 {
     public Dialogue dialogue;
-    private ObjectiveManager objectiveManager;
-    private Objective objective;
-
-    private void Start()
-    {
-        objective = GetComponent<Objective>();
-        objectiveManager = FindObjectOfType<ObjectiveManager>();
-    }
+    public GameObject shovel;
 
     public string GetDescription()
     {
@@ -24,8 +17,8 @@ public class Phone : MonoBehaviour, IInteractable
         Time.timeScale = 0;
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
         GameObject.Find("Telefone").GetComponent<Outline>().enabled = false;
-        objective.ObjectiveCompleted = true;
-        objectiveManager.VerifyObjective();
+        Destroy(GameObject.Find("PaFalsa"));
+        shovel.SetActive(true);
         Destroy(this);
     }
 }

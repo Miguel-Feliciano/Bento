@@ -4,13 +4,6 @@ using UnityEngine;
 
 public class Shovel : MonoBehaviour, IInteractable
 {
-    private Objective objective;
-
-    private void Start()
-    {
-        objective = GetComponent<Objective>();
-    }
-
     public string GetDescription()
     {
         return "Agarrar Pá";
@@ -18,7 +11,6 @@ public class Shovel : MonoBehaviour, IInteractable
 
     public void Interact()
     {
-        objective.ObjectiveCompleted = true;
         Destroy(GameObject.Find("Pa"));
     }
 }
