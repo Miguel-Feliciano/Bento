@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Shovel : MonoBehaviour, IInteractable
 {
+    public GameObject shovelSave;
+
     public string GetDescription()
     {
         return "Agarrar Pá";
@@ -12,5 +14,6 @@ public class Shovel : MonoBehaviour, IInteractable
     public void Interact()
     {
         Destroy(GameObject.Find("Pa"));
+        shovelSave.SetActive(true);
     }
 }

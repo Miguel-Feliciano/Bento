@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.1/staging' branch; Version is '2022.1.9f1 (07e076b6d414) revision 516214'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 32635 MB
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 16151 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.1.9f1\Editor\Unity.exe
+C:\Program Files\2022.1.9f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/Miguel/OneDrive - Ensino Lusófona/facul/3º Ano/Estagio/Bento-AgrandPastTale/Bento
+C:/Users/user/Desktop/BentoGame/Bento
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-55592
-Successfully changed project path to: C:/Users/Miguel/OneDrive - Ensino Lusófona/facul/3º Ano/Estagio/Bento-AgrandPastTale/Bento
-C:/Users/Miguel/OneDrive - Ensino Lusófona/facul/3º Ano/Estagio/Bento-AgrandPastTale/Bento
+51438
+Successfully changed project path to: C:/Users/user/Desktop/BentoGame/Bento
+C:/Users/user/Desktop/BentoGame/Bento
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,111 +47,111 @@ C:/Users/Miguel/OneDrive - Ensino Lusófona/facul/3º Ano/Estagio/Bento-AgrandPa
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 90.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 94.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.9f1 (07e076b6d414)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.9f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Miguel/OneDrive - Ensino Lusófona/facul/3º Ano/Estagio/Bento-AgrandPastTale/Bento/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/2022.1.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/Desktop/BentoGame/Bento/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
     Vendor:   NVIDIA
-    VRAM:     10078 MB
+    VRAM:     5980 MB
     Driver:   31.0.15.1694
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.9f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
+Mono path[0] = 'C:/Program Files/2022.1.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/2022.1.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/2022.1.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005931 seconds.
+Register platform support module: C:/Program Files/2022.1.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003790 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 84.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 79.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.687 seconds
+- Completed reload, in  0.610 seconds
 Domain Reload Profiling:
-	ReloadAssembly (687ms)
-		BeginReloadAssembly (83ms)
+	ReloadAssembly (611ms)
+		BeginReloadAssembly (66ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (485ms)
-			LoadAssemblies (80ms)
+		EndReloadAssembly (448ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (124ms)
-				TypeCache.Initialize (124ms)
-					TypeCache.ScanAssembly (122ms)
+			SetupTypeCache (102ms)
+				TypeCache.Initialize (101ms)
+					TypeCache.ScanAssembly (100ms)
 				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (275ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (268ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (7ms)
-				RefreshPlugins (85ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (130ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (132ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009122 seconds.
+Registered in 0.004483 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Miguel\OneDrive - Ensino Lusófona\facul\3º Ano\Estagio\Bento-AgrandPastTale\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Miguel\OneDrive - Ensino Lusófona\facul\3º Ano\Estagio\Bento-AgrandPastTale\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.979 seconds
+- Completed reload, in  0.920 seconds
 Domain Reload Profiling:
-	ReloadAssembly (980ms)
-		BeginReloadAssembly (125ms)
+	ReloadAssembly (922ms)
+		BeginReloadAssembly (103ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (743ms)
-			LoadAssemblies (93ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (716ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (238ms)
-				TypeCache.Initialize (234ms)
-					TypeCache.ScanAssembly (229ms)
-				ResolveRequiredComponents (3ms)
+			SetupTypeCache (228ms)
+				TypeCache.Initialize (224ms)
+					TypeCache.ScanAssembly (221ms)
+				ResolveRequiredComponents (4ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (323ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (333ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (7ms)
+				SetLoadedEditorAssemblies (6ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (206ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (216ms)
 				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3426 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (58.0 KB). Loaded Objects now: 3887.
+Unloading 3425 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (57.6 KB). Loaded Objects now: 3886.
 Memory consumption went from 0.51 GB to 0.51 GB.
-Total: 4.424900 ms (FindLiveObjects: 0.444500 ms CreateObjectMapping: 0.124500 ms MarkObjects: 3.731800 ms  DeleteObjects: 0.122900 ms)
+Total: 2.985200 ms (FindLiveObjects: 0.242100 ms CreateObjectMapping: 0.184300 ms MarkObjects: 2.499900 ms  DeleteObjects: 0.058200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -165,47 +165,2020 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 778604.022302 seconds.
-  path: Assets/MeshandTextures/big assets/door/door out_lambert1_Emissive.png
-  artifactKey: Guid(39682f0fd9bd9ec4cbaf1aeb6fe3ad46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MeshandTextures/big assets/door/door out_lambert1_Emissive.png using Guid(39682f0fd9bd9ec4cbaf1aeb6fe3ad46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057406284d354f16966b7658fa7fbec0') in 0.107955 seconds 
+  Time since last request: 3202.359888 seconds.
+  path: Assets/MeshandTextures/big assets/barrel
+  artifactKey: Guid(e477e500519913941a9f089532b4fcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/barrel using Guid(e477e500519913941a9f089532b4fcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f195ce6b635fe241f6345ab8f03263') in 0.007511 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/MeshandTextures/big assets/door/door_hinge_Metallic.png
-  artifactKey: Guid(034ba0d3e0251714fa3ce22daeef4218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MeshandTextures/big assets/door/door_hinge_Metallic.png using Guid(034ba0d3e0251714fa3ce22daeef4218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84f6942b5a614809fea226862e44d4f') in 0.018439 seconds 
+  Time since last request: 0.032620 seconds.
+  path: Assets/MeshandTextures/big assets/barrel/barrel.fbx
+  artifactKey: Guid(45033cfcc566042468bf3e46dbcaaf44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/barrel/barrel.fbx using Guid(45033cfcc566042468bf3e46dbcaaf44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9ffdd2f5e2ee1075ed72b5c3fb4fff') in 0.450721 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/MeshandTextures/big assets/door/door_hinge_AO.png
-  artifactKey: Guid(9b963c0ec8f7b7447ab97b3abe920a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MeshandTextures/big assets/door/door_hinge_AO.png using Guid(9b963c0ec8f7b7447ab97b3abe920a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39337bd6704f2d816d6cc224d28a3f18') in 0.017459 seconds 
+  Time since last request: 0.000034 seconds.
+  path: Assets/MeshandTextures/big assets/barrel/barrel low_lambert1_Normal.png
+  artifactKey: Guid(60508103433d0244cae7a71bc22867d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/barrel/barrel low_lambert1_Normal.png using Guid(60508103433d0244cae7a71bc22867d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e059a5b1544a9a09f081cc1fbb95eb86') in 0.031900 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/MeshandTextures/big assets/door/door_lambert1_Height.png
-  artifactKey: Guid(dc17dc1c79d626c4982fa15c7be8896f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MeshandTextures/big assets/door/door_lambert1_Height.png using Guid(dc17dc1c79d626c4982fa15c7be8896f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56c757ecd532dc2583c0cb855e7ce06') in 0.036326 seconds 
+  Time since last request: 26.289494 seconds.
+  path: Assets/QuickOutline
+  artifactKey: Guid(a4cd37b0518e643429610ff90091e80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuickOutline using Guid(a4cd37b0518e643429610ff90091e80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329a7710e09bf617d1908cea5f33b288') in 0.007065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.995523 seconds.
+  path: Assets/MeshandTextures/house
+  artifactKey: Guid(2f0c802f7a6065e41aa9b12af3dc5d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/house using Guid(2f0c802f7a6065e41aa9b12af3dc5d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c5ae6829146daeb4367c3b8e4c20d3') in 0.007595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.065510 seconds.
+  path: Assets/MeshandTextures/house/house 1.fbx
+  artifactKey: Guid(e6f72a8bc3f3a504e95eee8a42e47fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/house/house 1.fbx using Guid(e6f72a8bc3f3a504e95eee8a42e47fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337becf8ebe8aa2a352ed9bced16acf9') in 0.520082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.627411 seconds.
+  path: Assets/MeshandTextures/house/ground
+  artifactKey: Guid(0854a00a8c6e4164ea4758115127e163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/house/ground using Guid(0854a00a8c6e4164ea4758115127e163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970ab680681ba70aa1988acc61186874') in 0.005834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.082010 seconds.
+  path: Assets/MeshandTextures/house/ground/TexturesCom_Ground_Soil9_2x2_1K_albedo.tif
+  artifactKey: Guid(cfe71b74f6156554c9a8d947b0dd9c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/house/ground/TexturesCom_Ground_Soil9_2x2_1K_albedo.tif using Guid(cfe71b74f6156554c9a8d947b0dd9c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f419009572270bc9ec5cd6bc365b071') in 0.026911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MeshandTextures/house/ground/wbd.mat
+  artifactKey: Guid(580890137fe2a52498e7506895e7f814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/house/ground/wbd.mat using Guid(580890137fe2a52498e7506895e7f814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e14f71d57e44fee7ca786b691bfd8f') in 0.047953 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005451 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.053 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1053ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (837ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (266ms)
+				TypeCache.Initialize (261ms)
+					TypeCache.ScanAssembly (255ms)
+				ResolveRequiredComponents (5ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (385ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (252ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3403 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (25.5 KB). Loaded Objects now: 3935.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 3.314200 ms (FindLiveObjects: 0.324000 ms CreateObjectMapping: 0.275400 ms MarkObjects: 2.681200 ms  DeleteObjects: 0.032500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004868 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.086 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1087ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (875ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (275ms)
+				TypeCache.Initialize (271ms)
+					TypeCache.ScanAssembly (264ms)
+				ResolveRequiredComponents (5ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (405ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (261ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3404 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (32.5 KB). Loaded Objects now: 3938.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 3.248600 ms (FindLiveObjects: 0.304400 ms CreateObjectMapping: 0.220500 ms MarkObjects: 2.691600 ms  DeleteObjects: 0.030800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 789.681971 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db35324f2a10277928eeb8f1d6c422c') in 0.005237 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004646 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.117 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1118ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (880ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (304ms)
+				TypeCache.Initialize (299ms)
+					TypeCache.ScanAssembly (293ms)
+				ResolveRequiredComponents (6ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (382ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3403 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (25.4 KB). Loaded Objects now: 3941.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 3.630600 ms (FindLiveObjects: 0.257400 ms CreateObjectMapping: 0.199900 ms MarkObjects: 3.135900 ms  DeleteObjects: 0.036400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004293 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.076 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1077ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (865ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (272ms)
+				TypeCache.Initialize (267ms)
+					TypeCache.ScanAssembly (260ms)
+				ResolveRequiredComponents (5ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (390ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (256ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3404 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (32.5 KB). Loaded Objects now: 3944.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 3.493600 ms (FindLiveObjects: 0.260000 ms CreateObjectMapping: 0.221600 ms MarkObjects: 2.959800 ms  DeleteObjects: 0.051000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005605 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.074 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1075ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (853ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (276ms)
+				TypeCache.Initialize (271ms)
+					TypeCache.ScanAssembly (266ms)
+				ResolveRequiredComponents (4ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (390ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (255ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3404 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (32.5 KB). Loaded Objects now: 3947.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 3.189000 ms (FindLiveObjects: 0.314000 ms CreateObjectMapping: 0.244600 ms MarkObjects: 2.586900 ms  DeleteObjects: 0.042000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005058 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.052 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1053ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (829ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (259ms)
+				TypeCache.Initialize (255ms)
+					TypeCache.ScanAssembly (250ms)
+				ResolveRequiredComponents (4ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (386ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (253ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3404 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (32.5 KB). Loaded Objects now: 3950.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 3.753900 ms (FindLiveObjects: 0.305700 ms CreateObjectMapping: 0.249900 ms MarkObjects: 3.162400 ms  DeleteObjects: 0.034500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004898 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.041 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1042ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (816ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (254ms)
+				TypeCache.Initialize (249ms)
+					TypeCache.ScanAssembly (243ms)
+				ResolveRequiredComponents (5ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (380ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (251ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3404 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (32.6 KB). Loaded Objects now: 3953.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 3.125800 ms (FindLiveObjects: 0.251200 ms CreateObjectMapping: 0.197800 ms MarkObjects: 2.645300 ms  DeleteObjects: 0.030800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005848 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.092 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1093ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (864ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (287ms)
+				TypeCache.Initialize (282ms)
+					TypeCache.ScanAssembly (277ms)
+				ResolveRequiredComponents (5ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (389ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (253ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3404 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (32.5 KB). Loaded Objects now: 3956.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 3.421000 ms (FindLiveObjects: 0.354400 ms CreateObjectMapping: 0.336200 ms MarkObjects: 2.686400 ms  DeleteObjects: 0.042700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 336.694414 seconds.
+  path: Assets/MeshandTextures/big assets/tools
+  artifactKey: Guid(0753e41298d5e0c4eb760cbc1c17e338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/tools using Guid(0753e41298d5e0c4eb760cbc1c17e338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de428272673dd4e7bef791e902e6d10') in 0.007634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.856081 seconds.
+  path: Assets/MeshandTextures/big assets/tools/shovel
+  artifactKey: Guid(37d15dc860a58bf439244f4edadb584a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/tools/shovel using Guid(37d15dc860a58bf439244f4edadb584a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8cafdece05a1a736e360809083bbdb') in 0.006812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044721 seconds.
+  path: Assets/MeshandTextures/big assets/tools/shovel/metal.mat
+  artifactKey: Guid(9321cb17b10f4ce488e17d67268d439d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/tools/shovel/metal.mat using Guid(9321cb17b10f4ce488e17d67268d439d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685763fe085a373a80650fb428406ad6') in 0.263553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MeshandTextures/big assets/tools/shovel/shovel low_wb_AO.png
+  artifactKey: Guid(d92831cbc75ce7842a42bf7845972fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/tools/shovel/shovel low_wb_AO.png using Guid(d92831cbc75ce7842a42bf7845972fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8a0ca51e87190a3c2aa6849f3b1e40') in 0.021635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/MeshandTextures/big assets/tools/shovel/shovel low_metal_BaseMap.png
+  artifactKey: Guid(7765fe1f02847a24cad70f99dfe7ebca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/tools/shovel/shovel low_metal_BaseMap.png using Guid(7765fe1f02847a24cad70f99dfe7ebca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ec3582f4427fde2e39aa5f28a1b88c') in 0.017387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MeshandTextures/big assets/tools/shovel/shovel low_wb_BaseMap.png
+  artifactKey: Guid(beab7733bbdab9c4da872dc811dae967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/tools/shovel/shovel low_wb_BaseMap.png using Guid(beab7733bbdab9c4da872dc811dae967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b0068a94ce512c228fd9977db4e303') in 0.015157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/MeshandTextures/big assets/tools/shovel/shovel low_metal_MaskMap.png
+  artifactKey: Guid(1f8d3adfd3e090b468f95ace60e8107c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/tools/shovel/shovel low_metal_MaskMap.png using Guid(1f8d3adfd3e090b468f95ace60e8107c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9f1fc2d09588541b68240eff1b57d7') in 0.016612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MeshandTextures/big assets/tools/shovel/shovel low_metal_Normal.png
+  artifactKey: Guid(6757bc3bad72f8c428ebfc04baeaeb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/tools/shovel/shovel low_metal_Normal.png using Guid(6757bc3bad72f8c428ebfc04baeaeb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2cb06fba0150ebd5427d5cd227e6ed') in 0.019939 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004275 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.107 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1108ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (874ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (296ms)
+				TypeCache.Initialize (290ms)
+					TypeCache.ScanAssembly (284ms)
+				ResolveRequiredComponents (5ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (389ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (258ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3403 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (25.5 KB). Loaded Objects now: 3959.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 3.497500 ms (FindLiveObjects: 0.350400 ms CreateObjectMapping: 0.290400 ms MarkObjects: 2.821500 ms  DeleteObjects: 0.033200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004549 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.075 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1076ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (853ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (265ms)
+				TypeCache.Initialize (260ms)
+					TypeCache.ScanAssembly (253ms)
+				ResolveRequiredComponents (6ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (394ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3404 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (32.5 KB). Loaded Objects now: 3962.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 3.549500 ms (FindLiveObjects: 0.471200 ms CreateObjectMapping: 0.561800 ms MarkObjects: 2.489200 ms  DeleteObjects: 0.026300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004636 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.046 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1047ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (827ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (256ms)
+				TypeCache.Initialize (252ms)
+					TypeCache.ScanAssembly (246ms)
+				ResolveRequiredComponents (4ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (388ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (253ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3404 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (32.5 KB). Loaded Objects now: 3965.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 3.695200 ms (FindLiveObjects: 0.350900 ms CreateObjectMapping: 0.346000 ms MarkObjects: 2.964500 ms  DeleteObjects: 0.032500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 262.210174 seconds.
+  path: Assets/MeshandTextures/big assets/bed
+  artifactKey: Guid(e8f2eea7a96ea464d9d78f8f5e89e4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bed using Guid(e8f2eea7a96ea464d9d78f8f5e89e4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e7d77921a776a51dbe022fade8ddda') in 0.009262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029854 seconds.
+  path: Assets/MeshandTextures/big assets/bed/bed low.fbx
+  artifactKey: Guid(db11f12713758694a9a304f71b073605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bed/bed low.fbx using Guid(db11f12713758694a9a304f71b073605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c36f141e9b6a05d57d44d83729a95a') in 0.145198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/MeshandTextures/big assets/bed/matress low_lambert1_AO.png
+  artifactKey: Guid(1706da1cb509ebd40ba4e77e7c09805f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bed/matress low_lambert1_AO.png using Guid(1706da1cb509ebd40ba4e77e7c09805f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc24d12ace6f50e03848edd1bcaafff') in 0.021841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MeshandTextures/big assets/bed/matress low_lambert1_Normal.png
+  artifactKey: Guid(df32c3b0b70a8b845b7deedaedfcbe75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bed/matress low_lambert1_Normal.png using Guid(df32c3b0b70a8b845b7deedaedfcbe75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81781b40aabce97705ae87e865beac2') in 0.016001 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/MeshandTextures/big assets/door/door_lambert1_Roughness.png
-  artifactKey: Guid(6434670e5d17bc9409b3c4062894b7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MeshandTextures/big assets/door/door_lambert1_Roughness.png using Guid(6434670e5d17bc9409b3c4062894b7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83660b0fd01dbe982138186d9b9d433d') in 0.021475 seconds 
+  path: Assets/MeshandTextures/big assets/bed/pillow low_lambert1_AlbedoTransparency.png
+  artifactKey: Guid(56a423c327d366747a22ec4cd9704df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bed/pillow low_lambert1_AlbedoTransparency.png using Guid(56a423c327d366747a22ec4cd9704df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad6e22681a098af964b6e867147cad4') in 0.016316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/MeshandTextures/big assets/bed/pillow low_lambert1_MetallicSmoothness.png
+  artifactKey: Guid(4fbbdbb64817d1144b6975c79593076b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bed/pillow low_lambert1_MetallicSmoothness.png using Guid(4fbbdbb64817d1144b6975c79593076b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a9b16fa18afefbbde9d01f74129f10') in 0.017881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MeshandTextures/big assets/bed/bed low_lambert1_BaseMap.png
+  artifactKey: Guid(c4f65be51d59f0749b0c77cf373a2812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bed/bed low_lambert1_BaseMap.png using Guid(c4f65be51d59f0749b0c77cf373a2812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef7966510e852ad019bceba3dae46e5') in 0.015068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MeshandTextures/big assets/bed/bed low_lambert1_Emissive.png
+  artifactKey: Guid(36decc9ced38c9946a3da2ff687b4a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bed/bed low_lambert1_Emissive.png using Guid(36decc9ced38c9946a3da2ff687b4a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0a212f5d4aaea6652c0066cc4cfd31') in 0.016187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MeshandTextures/big assets/bed/lambert1 1.mat
+  artifactKey: Guid(af5dfb29a8035244b997db9e0e3ac5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bed/lambert1 1.mat using Guid(af5dfb29a8035244b997db9e0e3ac5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b991b299232458113585764236129b23') in 0.042903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MeshandTextures/big assets/bed/pillow low_lambert1_AO.png
+  artifactKey: Guid(6906db9b4ff65bc40aa9c3a18cbd25b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bed/pillow low_lambert1_AO.png using Guid(6906db9b4ff65bc40aa9c3a18cbd25b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58de808751cee1e8b6f523b159a472d') in 0.016713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MeshandTextures/big assets/bed/matress low_lambert1_BaseMap.png
+  artifactKey: Guid(01c4cd5feae98854d822d77c57175b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bed/matress low_lambert1_BaseMap.png using Guid(01c4cd5feae98854d822d77c57175b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f5b6a88c89efaacf1ce69cd6682d19') in 0.017841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/MeshandTextures/big assets/bed/pillow low_lambert1_Normal.png
+  artifactKey: Guid(ab1fe9c153649c149a92d31286b46561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bed/pillow low_lambert1_Normal.png using Guid(ab1fe9c153649c149a92d31286b46561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0053d8bc237f7dbafc1082c863809647') in 0.022006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MeshandTextures/big assets/bed/pillow low_lambert1_Emission.png
+  artifactKey: Guid(5e4f6d1e7569f1b47ba6d0c05566e1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bed/pillow low_lambert1_Emission.png using Guid(5e4f6d1e7569f1b47ba6d0c05566e1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fce5c4c740b8a5ab7d1b4004f32b3fe') in 0.016930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/MeshandTextures/big assets/bed/matress low_lambert1_Emissive.png
+  artifactKey: Guid(a78b6e28b16d67043b09bbd22e6c50ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bed/matress low_lambert1_Emissive.png using Guid(a78b6e28b16d67043b09bbd22e6c50ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6da5d631e67dfc741fe4c03f0bfa19') in 0.016821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/MeshandTextures/big assets/bed/matress low_lambert1_MaskMap.png
+  artifactKey: Guid(3d497e5610bd9254a96efd35d2943a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bed/matress low_lambert1_MaskMap.png using Guid(3d497e5610bd9254a96efd35d2943a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5f599e83fb4860bac2e9f1ab4358f5') in 0.016910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 219.702216 seconds.
+  path: Assets/MeshandTextures/big assets/bookcase/boockcase low_lambert1_BaseMap.png
+  artifactKey: Guid(3fdc169ac6c13944d96978675a6d23a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bookcase/boockcase low_lambert1_BaseMap.png using Guid(3fdc169ac6c13944d96978675a6d23a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742c8a0551912bdf814033f72c02240d') in 0.021816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MeshandTextures/big assets/bookcase/boockcase low_lambert1_MaskMap.png
+  artifactKey: Guid(aac241b1ad09b0a4a8472aa5bfd9aa80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bookcase/boockcase low_lambert1_MaskMap.png using Guid(aac241b1ad09b0a4a8472aa5bfd9aa80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367f82b3ddd2ba960038b885aa5944d0') in 0.025379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MeshandTextures/big assets/bookcase/boockcase low_lambert1_Normal.png
+  artifactKey: Guid(2dc19df9382c9e44e94f6ea064e1934a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bookcase/boockcase low_lambert1_Normal.png using Guid(2dc19df9382c9e44e94f6ea064e1934a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d586688d137f7486868345ae497621b') in 0.027686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MeshandTextures/big assets/bookcase/lambert1.mat
+  artifactKey: Guid(dd4532c43548a1546b0a294635910508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bookcase/lambert1.mat using Guid(dd4532c43548a1546b0a294635910508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6598f87437fbdf9b486187b9f78b63') in 0.031189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.937463 seconds.
+  path: Assets/MeshandTextures/big assets/chest/chest low_hinge_AO.png
+  artifactKey: Guid(48c6a35cd85df5844817d19fb3d728dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/chest/chest low_hinge_AO.png using Guid(48c6a35cd85df5844817d19fb3d728dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638e1cbbee00dde358f96f1994edb71e') in 0.020533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/MeshandTextures/big assets/chest/chest low_hinge_Emissive.png
+  artifactKey: Guid(6cc11ae89f0546149be4fa4f4142cb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/chest/chest low_hinge_Emissive.png using Guid(6cc11ae89f0546149be4fa4f4142cb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ff88265eb015854308cf156cca191d') in 0.022760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MeshandTextures/big assets/chest/chest low_lambert1_Emissive.png
+  artifactKey: Guid(ed785701f3c9b6e4db4489dfb29d2f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/chest/chest low_lambert1_Emissive.png using Guid(ed785701f3c9b6e4db4489dfb29d2f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad301e5bd6f30afa4759e8d6503edca') in 0.024388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MeshandTextures/big assets/chest/chest low_relevo_AO.png
+  artifactKey: Guid(c0ba9b30d68aa4f4a81376db234ef2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/chest/chest low_relevo_AO.png using Guid(c0ba9b30d68aa4f4a81376db234ef2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88db267ef2088c95fe5c638fa5d1408c') in 0.025405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MeshandTextures/big assets/chest/chest low_lambert1_AO.png
+  artifactKey: Guid(21763e877d9ba3f43b364dfbcf9feb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/chest/chest low_lambert1_AO.png using Guid(21763e877d9ba3f43b364dfbcf9feb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f96a1a5e299e5ae8085896b6c704e4') in 0.017302 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Assets/MeshandTextures/big assets/door/door_knob_Roughness.png
-  artifactKey: Guid(b4644ac7945741940959411b56a49d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MeshandTextures/big assets/door/door_knob_Roughness.png using Guid(b4644ac7945741940959411b56a49d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3824bc08f02a34d3e4607ab67aa041c') in 0.016935 seconds 
+  path: Assets/MeshandTextures/big assets/chest/chest low_relevo_BaseMap.png
+  artifactKey: Guid(4c46b9697f3c6d54fbfbdb7aba23ce10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/chest/chest low_relevo_BaseMap.png using Guid(4c46b9697f3c6d54fbfbdb7aba23ce10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f188b73b6484febee713a1eecda67f41') in 0.020373 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/MeshandTextures/big assets/door/door_lambert1_Metallic.png
-  artifactKey: Guid(7e9bfcd5d31679d4eabb4891c7b3eca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MeshandTextures/big assets/door/door_lambert1_Metallic.png using Guid(7e9bfcd5d31679d4eabb4891c7b3eca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e36a782652d7939cd1ae393a8612ba21') in 0.014045 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 0.000025 seconds.
+  path: Assets/MeshandTextures/big assets/chest/chest low_lambert1_MaskMap.png
+  artifactKey: Guid(b86b5fcde5af5aa459c15f2655d7b7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/chest/chest low_lambert1_MaskMap.png using Guid(b86b5fcde5af5aa459c15f2655d7b7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b4097620782851c654af47b1aa0429') in 0.021850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MeshandTextures/big assets/chest/chest low_outside_Normal.png
+  artifactKey: Guid(60718e0aa697bc44582424acd6eca88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/chest/chest low_outside_Normal.png using Guid(60718e0aa697bc44582424acd6eca88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e8abb97fff85f313fc310446a09757') in 0.024484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MeshandTextures/big assets/chest/hinge.mat
+  artifactKey: Guid(8a60ef059b9e7474c91c456bc55b6f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/chest/hinge.mat using Guid(8a60ef059b9e7474c91c456bc55b6f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f1fbf385ae8d64e560db340f756d19') in 0.034530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MeshandTextures/big assets/chest/chest low_outside_AO.png
+  artifactKey: Guid(fccb0b714b09b3045b7fa25e4f524f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/chest/chest low_outside_AO.png using Guid(fccb0b714b09b3045b7fa25e4f524f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e623b19b7ea6894b8098f45f39feae') in 0.019890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/MeshandTextures/big assets/chest/chest low_relevo_Emissive.png
+  artifactKey: Guid(b5d1f513066323641ae7e582dfbff9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/chest/chest low_relevo_Emissive.png using Guid(b5d1f513066323641ae7e582dfbff9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2ed8ec15a9d9c190d36716ef17aa10') in 0.016683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/MeshandTextures/big assets/chest/relevo.mat
+  artifactKey: Guid(798acce89a2a0b14fa98215b8106e952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/chest/relevo.mat using Guid(798acce89a2a0b14fa98215b8106e952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb2649671f124853e9a3708f0e69bae') in 0.027615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.149127 seconds.
+  path: Assets/MeshandTextures/big assets/door/door out.fbx
+  artifactKey: Guid(1bd6c499d85d02b43ab0ab91ceab5654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/door/door out.fbx using Guid(1bd6c499d85d02b43ab0ab91ceab5654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb740c12818167c029988325ba96b244') in 0.119581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MeshandTextures/big assets/door/door_knob_AO.png
+  artifactKey: Guid(18eb450c68b57cf41bb81341edc2fbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/door/door_knob_AO.png using Guid(18eb450c68b57cf41bb81341edc2fbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b368534618205c1023058f219d002b') in 0.023065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/MeshandTextures/big assets/door/door out_lambert1_Normal.png
+  artifactKey: Guid(714b201ba7cfdf14cbf73709d94e697d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/door/door out_lambert1_Normal.png using Guid(714b201ba7cfdf14cbf73709d94e697d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09361607ec01fab972d7e020d74d46bd') in 0.043516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MeshandTextures/big assets/door/door_hinge_AO.png
+  artifactKey: Guid(9b963c0ec8f7b7447ab97b3abe920a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/door/door_hinge_AO.png using Guid(9b963c0ec8f7b7447ab97b3abe920a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe8fbd9c5c6f65b5d9e2e0791149753') in 0.020870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/MeshandTextures/big assets/door/door_knob_Normal.png
+  artifactKey: Guid(618f1077904eac1498a4e1166bb61b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/door/door_knob_Normal.png using Guid(618f1077904eac1498a4e1166bb61b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9189def0d80ab94aeb55c671d213f574') in 0.023115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MeshandTextures/big assets/door/lambert1 1.mat
+  artifactKey: Guid(8dd0fc9589ff5b743b7497b63f96f27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/door/lambert1 1.mat using Guid(8dd0fc9589ff5b743b7497b63f96f27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78649b4f76720b0355107ef43459da04') in 0.040217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MeshandTextures/big assets/door/door_lambert1_Roughness.png
+  artifactKey: Guid(6434670e5d17bc9409b3c4062894b7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/door/door_lambert1_Roughness.png using Guid(6434670e5d17bc9409b3c4062894b7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9059604c6b52d23598c3cea2b1420c2d') in 0.021332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/MeshandTextures/big assets/door/door_knob_Roughness.png
+  artifactKey: Guid(b4644ac7945741940959411b56a49d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/door/door_knob_Roughness.png using Guid(b4644ac7945741940959411b56a49d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff42e01c1556a04e13cb993de098356') in 0.020239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MeshandTextures/big assets/door/door out_lambert1_MaskMap.png
+  artifactKey: Guid(ad50908f5718fb046b5465ed7eb9ebd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/door/door out_lambert1_MaskMap.png using Guid(ad50908f5718fb046b5465ed7eb9ebd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc766e32aff88fbd6b5d2f1341292ac') in 0.021195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 222.802622 seconds.
+  path: Assets/MeshandTextures/big assets/phone/knob.mat
+  artifactKey: Guid(9c24afd88a3a2b84881644cb0d3e0a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/phone/knob.mat using Guid(9c24afd88a3a2b84881644cb0d3e0a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e6a5a4832f9b65131709787f59aeb0') in 0.029180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/MeshandTextures/big assets/phone/phone_knob_Normal.png
+  artifactKey: Guid(b822cfa9986dd4940add75c99b68f5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/phone/phone_knob_Normal.png using Guid(b822cfa9986dd4940add75c99b68f5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17199f36f6983240c2c32e3a318568e2') in 0.020335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MeshandTextures/big assets/phone/phone_knob_AO.png
+  artifactKey: Guid(21328fa0e9c56d84e89d435ca3ac6383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/phone/phone_knob_AO.png using Guid(21328fa0e9c56d84e89d435ca3ac6383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e4685ac05024633c65a978bdd19536') in 0.018809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/MeshandTextures/big assets/phone/phone_phone_BaseMap.png
+  artifactKey: Guid(13144ec824e37b7419d0f23556a6171e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/phone/phone_phone_BaseMap.png using Guid(13144ec824e37b7419d0f23556a6171e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf49a8523fcffcbd6deed893bb4ec78') in 0.018856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/MeshandTextures/big assets/phone/phone_rings_Emissive.png
+  artifactKey: Guid(f953a704b319a9543948a144fc85b535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/phone/phone_rings_Emissive.png using Guid(f953a704b319a9543948a144fc85b535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec337f1f827c63235ddac250a176e8d') in 0.016021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MeshandTextures/big assets/phone/rings.mat
+  artifactKey: Guid(2e347a14bc30e6a4dbfb2a9fabd4c8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/phone/rings.mat using Guid(2e347a14bc30e6a4dbfb2a9fabd4c8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ed6fd7b770cb9470e0a7eb7d177b68') in 0.028129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MeshandTextures/big assets/phone/phone.mat
+  artifactKey: Guid(1c3cbcf2367e4204b8009d5692fb20e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/phone/phone.mat using Guid(1c3cbcf2367e4204b8009d5692fb20e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cccca156b2d0aa9d9c08c5a27234cf3') in 0.025460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/MeshandTextures/big assets/phone/phone_outside_Normal.png
+  artifactKey: Guid(061fb8e6634c2b042ada593dc103ed12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/phone/phone_outside_Normal.png using Guid(061fb8e6634c2b042ada593dc103ed12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae35f783efe9d9dbf407f1c434ce766') in 0.017417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MeshandTextures/big assets/phone/phone_outside_BaseMap.png
+  artifactKey: Guid(d8db798f5baf8d8498810ff04edf620e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/phone/phone_outside_BaseMap.png using Guid(d8db798f5baf8d8498810ff04edf620e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15443d434dd6cc2711e1494815d9de98') in 0.016238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MeshandTextures/big assets/phone/phone_rings_Normal.png
+  artifactKey: Guid(736f533802f99a641b59c13d3094cce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/phone/phone_rings_Normal.png using Guid(736f533802f99a641b59c13d3094cce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48393e228b6f8372897c3e9b28ba3ac4') in 0.018671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MeshandTextures/big assets/phone/phone_hinge_BaseMap.png
+  artifactKey: Guid(1c804fbd204da1e468e703859b901a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/phone/phone_hinge_BaseMap.png using Guid(1c804fbd204da1e468e703859b901a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38410e79f18d98f470345c0c2db7b39a') in 0.017400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MeshandTextures/big assets/phone/phone_phone_Emissive.png
+  artifactKey: Guid(52d81e20327034a469ed740ab9a7089f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/phone/phone_phone_Emissive.png using Guid(52d81e20327034a469ed740ab9a7089f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63099f6c394bc69910bea77ae1aa511') in 0.017158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MeshandTextures/big assets/phone/phone_outside_Emissive.png
+  artifactKey: Guid(a47e6761340b731449f5d5217a8354e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/phone/phone_outside_Emissive.png using Guid(a47e6761340b731449f5d5217a8354e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344743dc7f26d70e98cdfb4b11bbba9d') in 0.016636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MeshandTextures/big assets/phone/phone_metal_MaskMap.png
+  artifactKey: Guid(41e421748d853ba4ea807c77c7499aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/phone/phone_metal_MaskMap.png using Guid(41e421748d853ba4ea807c77c7499aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc72bcce2f89e776057fd6c607203036') in 0.020915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MeshandTextures/big assets/phone/phone_outside_AO.png
+  artifactKey: Guid(c285081a06cbcab4cb8d04e75c76b6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/phone/phone_outside_AO.png using Guid(c285081a06cbcab4cb8d04e75c76b6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5fedb6ea7c00f1a0a0d5764789ad16') in 0.018632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MeshandTextures/big assets/phone/wb.mat
+  artifactKey: Guid(5e3d590316b06a74ca7b9ee5b41a25a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/phone/wb.mat using Guid(5e3d590316b06a74ca7b9ee5b41a25a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85caac1d6019831fb233e443481f6334') in 0.147687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MeshandTextures/big assets/phone/phone_knob_MaskMap.png
+  artifactKey: Guid(69a00bff3b2b1ec41896034febce80fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/phone/phone_knob_MaskMap.png using Guid(69a00bff3b2b1ec41896034febce80fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '703792869e87d3675fee2064542099d7') in 0.015728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/MeshandTextures/big assets/phone/phone_hinge_MaskMap.png
+  artifactKey: Guid(bcaf1373453cf2749a51b140968dc501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/phone/phone_hinge_MaskMap.png using Guid(bcaf1373453cf2749a51b140968dc501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa82e3f4cb5a560a9647ae5269642b5') in 0.016148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MeshandTextures/big assets/phone/phone_phone_Normal.png
+  artifactKey: Guid(f024ea35128ff6146872624ed7c40179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/phone/phone_phone_Normal.png using Guid(f024ea35128ff6146872624ed7c40179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e8745e6bd2ecd95116eadde3de7ae0') in 0.017807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MeshandTextures/big assets/phone/phone_phone_AO.png
+  artifactKey: Guid(1024861443126fa4aa61e707fdaef18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/phone/phone_phone_AO.png using Guid(1024861443126fa4aa61e707fdaef18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04844bb349ac6c28680b4000b09d68cb') in 0.015572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MeshandTextures/big assets/phone/phone_outside_MaskMap.png
+  artifactKey: Guid(d035d033c401b264db8a70cece880bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/phone/phone_outside_MaskMap.png using Guid(d035d033c401b264db8a70cece880bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632bf3fbc077e23170c5185fa0f99169') in 0.018984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MeshandTextures/big assets/phone/phone_rings_MaskMap.png
+  artifactKey: Guid(df35e440dd8d2ad439bea193b1594abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/phone/phone_rings_MaskMap.png using Guid(df35e440dd8d2ad439bea193b1594abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f52b01a00a70b661fa9e418c5588536') in 0.017883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MeshandTextures/big assets/phone/phone_metal_Emissive.png
+  artifactKey: Guid(145c01bfe82f9a2488c2b3583f1ffbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/phone/phone_metal_Emissive.png using Guid(145c01bfe82f9a2488c2b3583f1ffbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea5f0bf6bf937b44bf8dde02d0e6fdb') in 0.015973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/MeshandTextures/big assets/phone/phone_knob_BaseMap.png
+  artifactKey: Guid(3a4d7c2aa2c086e44ad024cbf593268f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/phone/phone_knob_BaseMap.png using Guid(3a4d7c2aa2c086e44ad024cbf593268f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '308f9c1f157ea13844974ffafb3412a0') in 0.018536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MeshandTextures/big assets/phone/phone_wb_Emissive.png
+  artifactKey: Guid(7dd475c7a64fe1948bb364247589fef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/phone/phone_wb_Emissive.png using Guid(7dd475c7a64fe1948bb364247589fef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b5ce3790c85162189c69af05d2dd9c') in 0.017848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MeshandTextures/big assets/phone/phone_wb_MaskMap.png
+  artifactKey: Guid(eecdce51e09c7f942bdd6cee39d4179b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/phone/phone_wb_MaskMap.png using Guid(eecdce51e09c7f942bdd6cee39d4179b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9b84b050c2a98cf9f129e1da3e0291') in 0.017552 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005523 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.187 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1188ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (935ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (317ms)
+				TypeCache.Initialize (313ms)
+					TypeCache.ScanAssembly (307ms)
+				ResolveRequiredComponents (4ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (412ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (268ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3403 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (25.4 KB). Loaded Objects now: 3968.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 3.627500 ms (FindLiveObjects: 0.305400 ms CreateObjectMapping: 0.279600 ms MarkObjects: 3.009100 ms  DeleteObjects: 0.031900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 86.768150 seconds.
+  path: Assets/MeshandTextures/big assets/stool
+  artifactKey: Guid(89662aab379a8164cba6d9980302b062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/stool using Guid(89662aab379a8164cba6d9980302b062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec66068f52634fe3edc8e4ffc6e1920') in 0.006949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030679 seconds.
+  path: Assets/MeshandTextures/big assets/stool/lambert1.mat
+  artifactKey: Guid(b53f9db9ba4c80940b070596d06ce990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/stool/lambert1.mat using Guid(b53f9db9ba4c80940b070596d06ce990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233dad74b29ac48e25956a3f792d726d') in 0.118154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/MeshandTextures/big assets/stool/stool_lambert1_BaseMap.png
+  artifactKey: Guid(bf7812dad2ab42c4ba84b7acbe5c1ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/stool/stool_lambert1_BaseMap.png using Guid(bf7812dad2ab42c4ba84b7acbe5c1ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8bff990f192decab701f15cc83a1d19') in 0.025181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MeshandTextures/big assets/stool/stool_lambert1_MaskMap.png
+  artifactKey: Guid(11d72c3689d9a114898cd8b976582400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/stool/stool_lambert1_MaskMap.png using Guid(11d72c3689d9a114898cd8b976582400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8daae34865bcbf7c6b70946629ae1232') in 0.018806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/MeshandTextures/big assets/stool/stool_lambert1_AO.png
+  artifactKey: Guid(2859d39b5f8a10d409fa3ee142f9feee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/stool/stool_lambert1_AO.png using Guid(2859d39b5f8a10d409fa3ee142f9feee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8f5b4bf7fb7b55bb9827908fdfacfd') in 0.016471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/MeshandTextures/big assets/stool/stool_lambert1_Normal.png
+  artifactKey: Guid(095fbd970d583ee4b9030a5e19c40c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/stool/stool_lambert1_Normal.png using Guid(095fbd970d583ee4b9030a5e19c40c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ff0a18c440b52980577cfa9f19acdc') in 0.019317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MeshandTextures/big assets/stool/stool_lambert1_Emissive.png
+  artifactKey: Guid(3d96bbadfd874b349a76365ff10a9737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/stool/stool_lambert1_Emissive.png using Guid(3d96bbadfd874b349a76365ff10a9737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6ac93e653f4a5c7d2678b8637f3d0a') in 0.016518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.700339 seconds.
+  path: Assets/MeshandTextures/big assets/table
+  artifactKey: Guid(a4a1d801d4c3ed646aebac5e677b6be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/table using Guid(a4a1d801d4c3ed646aebac5e677b6be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7774956194f723cb9f2d94f5525b4d') in 0.006036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.049654 seconds.
+  path: Assets/MeshandTextures/big assets/table/lambert1.mat
+  artifactKey: Guid(7ed49a975ba86c54788629d4391fc78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/table/lambert1.mat using Guid(7ed49a975ba86c54788629d4391fc78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741116ee2a20cbc26f1782b29439b8f0') in 0.029300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MeshandTextures/big assets/table/table low_lambert1_AO.png
+  artifactKey: Guid(349a2987a67aecd439c158727d3ce406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/table/table low_lambert1_AO.png using Guid(349a2987a67aecd439c158727d3ce406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b586bf755b9d17b5aa92dafe95d0013') in 0.018409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/MeshandTextures/big assets/table/table low_lambert2_Normal.png
+  artifactKey: Guid(2a617f689a5694b4cb1d24fe18a7b838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/table/table low_lambert2_Normal.png using Guid(2a617f689a5694b4cb1d24fe18a7b838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d9fdfc10805a41948aed75abfe3a28') in 0.021122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MeshandTextures/big assets/table/table low_lambert2_MaskMap.png
+  artifactKey: Guid(1cd119756c58efa4fbe60f9a8448d510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/table/table low_lambert2_MaskMap.png using Guid(1cd119756c58efa4fbe60f9a8448d510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2a257a255ecb29a2fa136b22fc4ae9') in 0.020645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MeshandTextures/big assets/table/table low_lambert1_BaseMap.png
+  artifactKey: Guid(82ff1f7d8542da146bed059470b168b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/table/table low_lambert1_BaseMap.png using Guid(82ff1f7d8542da146bed059470b168b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b469d8255fb4937791fd0edd5bd2fe32') in 0.016209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MeshandTextures/big assets/table/table low_lambert1_MaskMap.png
+  artifactKey: Guid(d2108d600e82a6e4d988c215b4f5dd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/table/table low_lambert1_MaskMap.png using Guid(d2108d600e82a6e4d988c215b4f5dd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0eb0ac04edf2b40c062ea16d24426aa') in 0.019993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/MeshandTextures/big assets/table/table low_lambert2_BaseMap.png
+  artifactKey: Guid(3d44d2e38dbb9984c88130eed5866266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/table/table low_lambert2_BaseMap.png using Guid(3d44d2e38dbb9984c88130eed5866266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825f6544d2a4818b53629d6c6b27753f') in 0.018971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.404267 seconds.
+  path: Assets/MeshandTextures/big assets/table work
+  artifactKey: Guid(b91f56844d05d82479f3fd1020ff9ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/table work using Guid(b91f56844d05d82479f3fd1020ff9ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a74635482ed4e91275a78f940189a91') in 0.006701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040718 seconds.
+  path: Assets/MeshandTextures/big assets/table work/lambert1.mat
+  artifactKey: Guid(1c22f0139cc977742a9c35bbad59744b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/table work/lambert1.mat using Guid(1c22f0139cc977742a9c35bbad59744b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8157f8e24254d56025fe890d6f41a8e9') in 0.033101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MeshandTextures/big assets/table work/table work low_lambert1_MaskMap.png
+  artifactKey: Guid(051099f90b7d1c34392e562f255fa7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/table work/table work low_lambert1_MaskMap.png using Guid(051099f90b7d1c34392e562f255fa7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c34de654a66df3b903d8288c4719551') in 0.021065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MeshandTextures/big assets/table work/table work low_lambert2_AO.png
+  artifactKey: Guid(3443e002c2515894695e2c64f10c4682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/table work/table work low_lambert2_AO.png using Guid(3443e002c2515894695e2c64f10c4682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9779df2a5fe24de4453d61e8139626') in 0.019780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/MeshandTextures/big assets/table work/table work low_lambert2_Normal.png
+  artifactKey: Guid(6567100b8ae7f924cba71647ce3c22bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/table work/table work low_lambert2_Normal.png using Guid(6567100b8ae7f924cba71647ce3c22bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52205114f0ad00339a7b02ed78111eea') in 0.022998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.853043 seconds.
+  path: Assets/MeshandTextures/big assets/tools/pitch
+  artifactKey: Guid(6f5916fc98dc5e746a20f38a9ba27895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/tools/pitch using Guid(6f5916fc98dc5e746a20f38a9ba27895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8bd24829369c97d5b49ba06633b9b9') in 0.006371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042749 seconds.
+  path: Assets/MeshandTextures/big assets/tools/pitch/metal 1.mat
+  artifactKey: Guid(b4f613506f4b4ae47ba227ec8118a9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/tools/pitch/metal 1.mat using Guid(b4f613506f4b4ae47ba227ec8118a9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f72c2cc73fd985ecc567d627b52cc36') in 0.037155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/MeshandTextures/big assets/tools/pitch/pitchfork low_metal_Normal.png
+  artifactKey: Guid(ce50992f4d614f844847e98c29af6489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/tools/pitch/pitchfork low_metal_Normal.png using Guid(ce50992f4d614f844847e98c29af6489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb978b836aaffb9996a6dfc513831fc7') in 0.021218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/MeshandTextures/big assets/tools/pitch/pitchfork low_rings_AO.png
+  artifactKey: Guid(3e67f80ab70f1bd41ad096e465f6cc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/tools/pitch/pitchfork low_rings_AO.png using Guid(3e67f80ab70f1bd41ad096e465f6cc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f840731dbac04c5ade8637067c6517') in 0.019008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MeshandTextures/big assets/tools/pitch/rings.mat
+  artifactKey: Guid(427512021787a114fa434d0f9b37be5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/tools/pitch/rings.mat using Guid(427512021787a114fa434d0f9b37be5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26686fea656fa418aba162fc8b26293') in 0.028285 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007139 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.158 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1159ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (916ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (307ms)
+				TypeCache.Initialize (303ms)
+					TypeCache.ScanAssembly (294ms)
+				ResolveRequiredComponents (4ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (407ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (263ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3403 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (25.5 KB). Loaded Objects now: 3971.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 3.663400 ms (FindLiveObjects: 0.342700 ms CreateObjectMapping: 0.378800 ms MarkObjects: 2.908200 ms  DeleteObjects: 0.032600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006084 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.100 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1101ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (875ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (278ms)
+				TypeCache.Initialize (273ms)
+					TypeCache.ScanAssembly (267ms)
+				ResolveRequiredComponents (5ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (402ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (265ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3404 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (32.6 KB). Loaded Objects now: 3974.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 3.212000 ms (FindLiveObjects: 0.262800 ms CreateObjectMapping: 0.200000 ms MarkObjects: 2.702700 ms  DeleteObjects: 0.045200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005528 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.068 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1069ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (839ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (266ms)
+				TypeCache.Initialize (262ms)
+					TypeCache.ScanAssembly (256ms)
+				ResolveRequiredComponents (5ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (389ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (256ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3404 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (32.6 KB). Loaded Objects now: 3977.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 3.585800 ms (FindLiveObjects: 0.405600 ms CreateObjectMapping: 0.390300 ms MarkObjects: 2.762400 ms  DeleteObjects: 0.026400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004731 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.058 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1059ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (835ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (258ms)
+				TypeCache.Initialize (254ms)
+					TypeCache.ScanAssembly (248ms)
+				ResolveRequiredComponents (4ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (389ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (253ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3404 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (32.5 KB). Loaded Objects now: 3980.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 3.485300 ms (FindLiveObjects: 0.257000 ms CreateObjectMapping: 0.236600 ms MarkObjects: 2.955100 ms  DeleteObjects: 0.035800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004577 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.051 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1052ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (832ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (254ms)
+				TypeCache.Initialize (249ms)
+					TypeCache.ScanAssembly (244ms)
+				ResolveRequiredComponents (5ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (383ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (249ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3404 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (32.5 KB). Loaded Objects now: 3983.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 3.069900 ms (FindLiveObjects: 0.292900 ms CreateObjectMapping: 0.195200 ms MarkObjects: 2.534200 ms  DeleteObjects: 0.046300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004708 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.076 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1078ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (854ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (270ms)
+				TypeCache.Initialize (265ms)
+					TypeCache.ScanAssembly (259ms)
+				ResolveRequiredComponents (5ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (400ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (261ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3404 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (32.6 KB). Loaded Objects now: 3986.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 4.035200 ms (FindLiveObjects: 0.309000 ms CreateObjectMapping: 0.216900 ms MarkObjects: 3.475900 ms  DeleteObjects: 0.032200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004533 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.092 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1093ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (873ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (294ms)
+				TypeCache.Initialize (289ms)
+					TypeCache.ScanAssembly (283ms)
+				ResolveRequiredComponents (5ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (393ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (255ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3404 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (32.5 KB). Loaded Objects now: 3989.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 4.132400 ms (FindLiveObjects: 0.305000 ms CreateObjectMapping: 0.228800 ms MarkObjects: 3.562500 ms  DeleteObjects: 0.034800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004522 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.059 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1060ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (839ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (279ms)
+				TypeCache.Initialize (274ms)
+					TypeCache.ScanAssembly (268ms)
+				ResolveRequiredComponents (4ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (375ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (248ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3404 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (32.5 KB). Loaded Objects now: 3992.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 3.007700 ms (FindLiveObjects: 0.278300 ms CreateObjectMapping: 0.238400 ms MarkObjects: 2.457000 ms  DeleteObjects: 0.032900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004699 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\BentoGame\Bento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.058 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1059ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (833ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (273ms)
+				TypeCache.Initialize (268ms)
+					TypeCache.ScanAssembly (262ms)
+				ResolveRequiredComponents (5ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (383ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (251ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3404 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (32.5 KB). Loaded Objects now: 3995.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 2.511500 ms (FindLiveObjects: 0.253800 ms CreateObjectMapping: 0.200600 ms MarkObjects: 2.032100 ms  DeleteObjects: 0.024100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1030.246489 seconds.
+  path: Assets/MeshandTextures/big assets/window
+  artifactKey: Guid(8a613309e6d0a90408112a1c06e6fb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/window using Guid(8a613309e6d0a90408112a1c06e6fb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c73914543477b8aadbb35fa105b677') in 0.006661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031373 seconds.
+  path: Assets/MeshandTextures/big assets/window/glass1.mat
+  artifactKey: Guid(c08e5d44185d78e4d8d2b30cafbfb108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/window/glass1.mat using Guid(c08e5d44185d78e4d8d2b30cafbfb108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a90c3e1b65b9e3a7d3f42c40d8a7952') in 0.127759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MeshandTextures/big assets/window/window_glass1_AO.png
+  artifactKey: Guid(bb049e2becc6b8543926a163a5dd6024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/window/window_glass1_AO.png using Guid(bb049e2becc6b8543926a163a5dd6024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7ae53762e1c7cfbb8602a980938ab4') in 0.025916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MeshandTextures/big assets/window/window_glass1_BaseMap.png
+  artifactKey: Guid(ccb5d43de58ec9e439d7202a7bcb1804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/window/window_glass1_BaseMap.png using Guid(ccb5d43de58ec9e439d7202a7bcb1804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec662cd1b67e31442dc9087f308a5af') in 0.016417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/MeshandTextures/big assets/window/window_window_frame_BaseMap.png
+  artifactKey: Guid(07ad9fdf576a0a747be0f4b6146ce508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/window/window_window_frame_BaseMap.png using Guid(07ad9fdf576a0a747be0f4b6146ce508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272c5d44c9e69db5912082d50b996a3c') in 0.029087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/MeshandTextures/big assets/window/window_glass1_MaskMap.png
+  artifactKey: Guid(0a77f8e728d9a954392eda9f991a56c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/window/window_glass1_MaskMap.png using Guid(0a77f8e728d9a954392eda9f991a56c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8edea988f038e55d7c8425c74a1858d') in 0.021348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MeshandTextures/big assets/window/window_window_frame_MaskMap.png
+  artifactKey: Guid(4ae211d76921a8f4ca90fbf3123ee8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/window/window_window_frame_MaskMap.png using Guid(4ae211d76921a8f4ca90fbf3123ee8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b213ffc48332bf1ff3236097b364ad8') in 0.023579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/MeshandTextures/big assets/window/window_glass1_Normal.png
+  artifactKey: Guid(88e5b04796a60ae49b7b07fcb69e5151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/window/window_glass1_Normal.png using Guid(88e5b04796a60ae49b7b07fcb69e5151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5695e59beae0b67e53378ee48fa22a') in 0.021576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MeshandTextures/big assets/window/window_window_frame_Normal.png
+  artifactKey: Guid(bf25de1f7d410bc4b9aee46b56ea60ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/window/window_window_frame_Normal.png using Guid(bf25de1f7d410bc4b9aee46b56ea60ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd189b8cc8f143e76a552f40ee2b83024') in 0.019979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.155993 seconds.
+  path: Assets/MeshandTextures/big assets/woredrobe
+  artifactKey: Guid(07e093b9d72a41747904e43a244a62fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/woredrobe using Guid(07e093b9d72a41747904e43a244a62fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5afb786b96c0616a1d25d3e1d65ec924') in 0.006345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.072295 seconds.
+  path: Assets/MeshandTextures/big assets/woredrobe/hinge.mat
+  artifactKey: Guid(82247e95064965e4fba07feda226b73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/woredrobe/hinge.mat using Guid(82247e95064965e4fba07feda226b73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40475c6c4d623a46320eeb5143517d4') in 0.028199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MeshandTextures/big assets/woredrobe/wb.mat
+  artifactKey: Guid(d6b13eb596ca2e1428e4b692f6e7e43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/woredrobe/wb.mat using Guid(d6b13eb596ca2e1428e4b692f6e7e43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e144a80e9de67a0de511bec8859cfeeb') in 0.030574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/MeshandTextures/big assets/woredrobe/wardrobe low_wbd_AO.png
+  artifactKey: Guid(4b2a322769a426242af1b227c7c9fc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/woredrobe/wardrobe low_wbd_AO.png using Guid(4b2a322769a426242af1b227c7c9fc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c2503ac7ab7ba2bb8430f23dd665386') in 0.018400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MeshandTextures/big assets/woredrobe/wardrobe low_wbd_Normal.png
+  artifactKey: Guid(ec133a27fa104be4c9c6b46f075ca634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/woredrobe/wardrobe low_wbd_Normal.png using Guid(ec133a27fa104be4c9c6b46f075ca634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98ca4c2e980006601594fddb509e67a') in 0.023621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/MeshandTextures/big assets/woredrobe/wardrobe low_knob_AO.png
+  artifactKey: Guid(21781194fec5ef64bbf076aa91db8e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/woredrobe/wardrobe low_knob_AO.png using Guid(21781194fec5ef64bbf076aa91db8e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718333689b03dfeefaf48db8d4cfe68a') in 0.019339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MeshandTextures/big assets/woredrobe/wardrobe low_wbd_MaskMap.png
+  artifactKey: Guid(901c67cafd9552f47a49d6b51067262b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/woredrobe/wardrobe low_wbd_MaskMap.png using Guid(901c67cafd9552f47a49d6b51067262b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6c773f018b5fc6e6e20f4ad08dd94d') in 0.018072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/MeshandTextures/big assets/woredrobe/wardrobe low_hinge_BaseMap.png
+  artifactKey: Guid(809fb48ec0fd3f84da6a58eaf7fba79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/woredrobe/wardrobe low_hinge_BaseMap.png using Guid(809fb48ec0fd3f84da6a58eaf7fba79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142fc8982164459e0fdab0f55bac7e64') in 0.020963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/MeshandTextures/big assets/woredrobe/wardrobe low_wb_BaseMap.png
+  artifactKey: Guid(a818f76fb510ead4c8588a55d3616742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/woredrobe/wardrobe low_wb_BaseMap.png using Guid(a818f76fb510ead4c8588a55d3616742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc55da326e8eb22b9543f17c312dfc9b') in 0.018972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MeshandTextures/big assets/woredrobe/wbd.mat
+  artifactKey: Guid(28663d29c12f1034a96fb22be4c00513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/woredrobe/wbd.mat using Guid(28663d29c12f1034a96fb22be4c00513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2003b253071c0b0ec50e4999a84e06cf') in 0.030390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MeshandTextures/big assets/woredrobe/wardrobe low_knob_MaskMap.png
+  artifactKey: Guid(9e2ad85cf6fbffa4db78516e6971f817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/woredrobe/wardrobe low_knob_MaskMap.png using Guid(9e2ad85cf6fbffa4db78516e6971f817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edddf43b1dbecfb901902e983125ec4f') in 0.022330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MeshandTextures/big assets/woredrobe/wardrobe low_hinge_MaskMap.png
+  artifactKey: Guid(260767b655d7c3a4691584ad3569461c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/woredrobe/wardrobe low_hinge_MaskMap.png using Guid(260767b655d7c3a4691584ad3569461c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef4b4ad905ce039639569c447ae83cd') in 0.018384 seconds 

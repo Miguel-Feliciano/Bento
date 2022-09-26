@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\Interactions\PlayerInteraction.cs" />
     <Compile Include="Assets\Scripts\Interactions\Dialogues\DialogueManager.cs" />
     <Compile Include="Assets\Scripts\Interactions\Dialogues\Dialogue.cs" />
+    <Compile Include="Assets\Scripts\Interactions\ShovelSave.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
