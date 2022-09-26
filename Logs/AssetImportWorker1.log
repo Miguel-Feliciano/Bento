@@ -348,3 +348,133 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1404.285935 seconds.
+  path: Assets/Materials/Furniture.mat
+  artifactKey: Guid(b3e878a7f47dba742aa4c956c20015c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Furniture.mat using Guid(b3e878a7f47dba742aa4c956c20015c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8bd7cb34b406b35902ea61aa8470e7') in 0.370475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.713620 seconds.
+  path: Assets/MeshandTextures/big assets/bancada/bancada low_lambert1_AO.png
+  artifactKey: Guid(d3db2c7a5f2838a4d960227416582410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bancada/bancada low_lambert1_AO.png using Guid(d3db2c7a5f2838a4d960227416582410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08422a19ef60329348e55844bc0be68c') in 0.071370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/MeshandTextures/big assets/bancada/bancada low_lambert2_Emissive.png
+  artifactKey: Guid(b27aeb4c216e31840a332f7f72bd3189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bancada/bancada low_lambert2_Emissive.png using Guid(b27aeb4c216e31840a332f7f72bd3189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a28a2f2cce0831cfa0571fa6bba85466') in 0.021195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/MeshandTextures/big assets/bancada/bancada low_lambert1_Normal.png
+  artifactKey: Guid(3e6f5d9771e833543a8886fa20fef3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bancada/bancada low_lambert1_Normal.png using Guid(3e6f5d9771e833543a8886fa20fef3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9959e41e792642257c081c189efbf7') in 0.029600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MeshandTextures/big assets/bancada/bancada low_lambert2_BaseMap.png
+  artifactKey: Guid(1c7039c4c8810df45a42c31254d31499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bancada/bancada low_lambert2_BaseMap.png using Guid(1c7039c4c8810df45a42c31254d31499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c6e8c08309cb8d25d89858568700a1') in 0.015840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MeshandTextures/big assets/bancada/bancada low_lambert2_MaskMap.png
+  artifactKey: Guid(58a3876808648a2449981b71ed6a2a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bancada/bancada low_lambert2_MaskMap.png using Guid(58a3876808648a2449981b71ed6a2a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0175c7d6d24a98da3f8cfa7ff57f68b5') in 0.019955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MeshandTextures/big assets/bancada/bancada low_lambert1_MaskMap.png
+  artifactKey: Guid(65910146f14423d4093c157376511ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bancada/bancada low_lambert1_MaskMap.png using Guid(65910146f14423d4093c157376511ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b740fe3a9942944ee893797a3ce8d9') in 0.019126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MeshandTextures/big assets/bancada/bancada low_lambert2_AO.png
+  artifactKey: Guid(fe5c36ec0372fbb4a9c7f6827dd3b546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bancada/bancada low_lambert2_AO.png using Guid(fe5c36ec0372fbb4a9c7f6827dd3b546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0e14c36beb6ef95da670e2b2cbcdba') in 0.018249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/MeshandTextures/big assets/bancada/bancada low_lambert1_BaseMap.png
+  artifactKey: Guid(2bf924c0ea7af9241b672ae116850c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bancada/bancada low_lambert1_BaseMap.png using Guid(2bf924c0ea7af9241b672ae116850c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a6151abc2f8ced4bd5a9b50fe5ab49') in 0.017089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MeshandTextures/big assets/bancada/lambert28.mat
+  artifactKey: Guid(725aa53c0b923aa4995cc14a12e2272e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/bancada/lambert28.mat using Guid(725aa53c0b923aa4995cc14a12e2272e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01fcaa3a1c732c348ee99cba02abe0f8') in 0.241483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.065029 seconds.
+  path: Assets/MeshandTextures/big assets/barrel/barrel low_lambert1_AO.png
+  artifactKey: Guid(abf75be7281bd3f4081ec90f7234f415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/barrel/barrel low_lambert1_AO.png using Guid(abf75be7281bd3f4081ec90f7234f415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9fd115860afe8e7d42394d969eaf933') in 0.016787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MeshandTextures/big assets/barrel/barrel low_outside_Normal.png
+  artifactKey: Guid(97eeb8947eecc9d4c99f3473aacfae0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/barrel/barrel low_outside_Normal.png using Guid(97eeb8947eecc9d4c99f3473aacfae0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966e3c7331e54b0bad71cf1bc54d6fc5') in 0.037949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/MeshandTextures/big assets/barrel/outside.mat
+  artifactKey: Guid(7396465eae7adcf4db73d01671d761c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/barrel/outside.mat using Guid(7396465eae7adcf4db73d01671d761c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a8d7229b99972f5c45b18af3b3ed58') in 0.267746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MeshandTextures/big assets/barrel/barrel low_rings_Emission.png
+  artifactKey: Guid(ff18afa8bd9665642a203c87e3dde84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/barrel/barrel low_rings_Emission.png using Guid(ff18afa8bd9665642a203c87e3dde84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe6782f87e416158e0f235fa21af6ab') in 0.020590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/MeshandTextures/big assets/barrel/barrel low_outside_AO.png
+  artifactKey: Guid(f4cef55f304159541bd21a313cd7d8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/barrel/barrel low_outside_AO.png using Guid(f4cef55f304159541bd21a313cd7d8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652f1855b52c057e7df8bd38eb9db823') in 0.019620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/MeshandTextures/big assets/barrel/barrel low_rings_AlbedoTransparency.png
+  artifactKey: Guid(65d95f89842293444b011a24ea15b115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/barrel/barrel low_rings_AlbedoTransparency.png using Guid(65d95f89842293444b011a24ea15b115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06326c6771cb1e0d870ef36197ba8e84') in 0.019932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MeshandTextures/big assets/barrel/barrel low_lambert1_MetallicSmoothness.png
+  artifactKey: Guid(8b26e9bec230c094a8889e09be1e07bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/barrel/barrel low_lambert1_MetallicSmoothness.png using Guid(8b26e9bec230c094a8889e09be1e07bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42dc212e10fc9394bc53d4aa9a6dd6c1') in 0.026869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MeshandTextures/big assets/barrel/barrel low_outside_Emission.png
+  artifactKey: Guid(a9c74096645a5e240a63684846331bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/barrel/barrel low_outside_Emission.png using Guid(a9c74096645a5e240a63684846331bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1711dcc456483b33ab5b6a770b5ca6a') in 0.018892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MeshandTextures/big assets/barrel/barrel low_outside_AlbedoTransparency.png
+  artifactKey: Guid(5db0f5a0167ef5a45a32993bc866965a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/big assets/barrel/barrel low_outside_AlbedoTransparency.png using Guid(5db0f5a0167ef5a45a32993bc866965a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5434f25edc51d7994bf1c30142d3ee') in 0.015899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.623177 seconds.
+  path: Assets/MeshandTextures/house/ground/TexturesCom_Ground_Soil9_2x2_1K_height.tif
+  artifactKey: Guid(1b8209486952ced449c781d3d9b30bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/house/ground/TexturesCom_Ground_Soil9_2x2_1K_height.tif using Guid(1b8209486952ced449c781d3d9b30bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a512f10c1d502ef9e0dffee4bc5b22ed') in 0.022160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MeshandTextures/house/ground/TexturesCom_Ground_Soil9_2x2_1K_normal.tif
+  artifactKey: Guid(445c526c67cdbd342ae82dc953085255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshandTextures/house/ground/TexturesCom_Ground_Soil9_2x2_1K_normal.tif using Guid(445c526c67cdbd342ae82dc953085255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15fc3f41d6b4c9d19d4142a8caf7189b') in 0.020047 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
