@@ -13,7 +13,7 @@ public class Shovel : MonoBehaviour, IInteractable
 
     public void Interact()
     {
-        Destroy(GameObject.Find("Pa"));
+        Destroy(GameObject.Find("shovel low"));
         shovelSave.SetActive(true);
     }
 }

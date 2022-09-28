@@ -59,7 +59,7 @@
     <Compile Include="Assets\Scripts\Interactions\IInteractable.cs" />
     <Compile Include="Assets\QuickOutline\Scripts\Outline.cs" />
     <Compile Include="Assets\Scripts\Player_Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\Interactions\ChangeColor.cs" />
+    <Compile Include="Assets\Scripts\Interactions\ShovelSave.cs" />
     <Compile Include="Assets\Scripts\Interactions\Phone.cs" />
     <Compile Include="Assets\Scripts\Interactions\ObjectiveManager.cs" />
     <Compile Include="Assets\Scripts\Interactions\Shovel.cs" />
@@ -67,7 +67,6 @@
     <Compile Include="Assets\Scripts\Interactions\PlayerInteraction.cs" />
     <Compile Include="Assets\Scripts\Interactions\Dialogues\DialogueManager.cs" />
     <Compile Include="Assets\Scripts\Interactions\Dialogues\Dialogue.cs" />
-    <Compile Include="Assets\Scripts\Interactions\ShovelSave.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -16,8 +16,8 @@ public class Phone : MonoBehaviour, IInteractable
     {
         Time.timeScale = 0;
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
-        GameObject.Find("Telefone").GetComponent<Outline>().enabled = false;
-        Destroy(GameObject.Find("PaFalsa"));
+        GameObject.Find("phone").GetComponent<Outline>().enabled = false;
+        Destroy(GameObject.Find("shovel low fake"));
         shovel.SetActive(true);
         Destroy(this);
     }

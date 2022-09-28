@@ -6,8 +6,8 @@ public class ObjectiveManager : MonoBehaviour
 {
     private void Start()
     {
-        GameObject.Find("Pa").SetActive(false);
-        GameObject.Find("PaGuardar").SetActive(false);
-        GameObject.Find("PaGuardada").SetActive(false);
+        GameObject.Find("shovel low").SetActive(false);
+        GameObject.Find("shovel low saving").SetActive(false);
+        GameObject.Find("shovel low saved").SetActive(false);
     }
 }
