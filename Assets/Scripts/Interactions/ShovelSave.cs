@@ -5,6 +5,7 @@ using UnityEngine;
 public class ShovelSave : MonoBehaviour, IInteractable
 {
     public GameObject shovelSaved;
+    public GameObject pitchfork;
 
     public string GetDescription()
     {
@@ -15,5 +16,7 @@ public class ShovelSave : MonoBehaviour, IInteractable
     {
         Destroy(GameObject.Find("shovel low saving"));
         shovelSaved.SetActive(true);
+        Destroy(GameObject.Find("pitchfork low fake"));
+        pitchfork.SetActive(true);
     }
 }

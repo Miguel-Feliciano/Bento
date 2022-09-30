@@ -9,5 +9,6 @@ public class ObjectiveManager : MonoBehaviour
         GameObject.Find("shovel low").SetActive(false);
         GameObject.Find("shovel low saving").SetActive(false);
         GameObject.Find("shovel low saved").SetActive(false);
+        GameObject.Find("pitchfork low").SetActive(false);
     }
 }
